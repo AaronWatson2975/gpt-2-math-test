@@ -1,17 +1,1 @@
-1000 or one thousand is the natural number following 999 and preceding 1001. In most English-speaking countries, it is often written with a comma separating the thousands unit: 1,000.
-
-It may also be described as the short thousand in historical discussion of medieval contexts where it might be confused with the Germanic concept of the "long thousand" (1200).
-
-The decimal representation for one thousand is
-1000—a one followed by three zeros, in the general notation ;
-1 × 103—in engineering notation, which for this number coincides with :
-1 × 103 exactly—in scientific normalized exponential notation ;
-1 E+3 exactly—in scientific E notation.
-The SI prefix for a thousand units is "kilo-", abbreviated to "k"—for instance, a kilometre or "km" is a thousand metres.
-In the SI writing style, a non-breaking space can be used as a thousands separator, i.e., to separate the digits of a number at every power of 1000.
-Multiples of thousands are occasionally represented by replacing their last three zeros with the letter "K": for instance, writing "$30K" for $30 000, or denoting the Y2K computer bug of the year 2000.
-A thousand units of currency, especially dollars or pounds, are colloquially called a grand, which can be abbreviated with a "G" suffix.
-
-1000 is a Harshad number in base 10.
-The sum of Euler's totient function over the first 57 integers is 1000.
-Prime Curios! mentions that 1000 is the smallest number that generates three primes in the fastest way possible by concatenation of decremented numbers (1 000 999, 1 000 999 998 997, and 1 000 999 998 997 996 995 994 993 are prime). The criterion excludes counting the number itself.
+1000 or one thousand is the natural number following 999 and preceding 1001. In most English-speaking countries, it is often written with a comma separating the thousands unit: 1,000. It may also be described as the short thousand in historical discussion of medieval contexts where it might be confused with the Germanic concept of the "long thousand" (1200). The decimal representation for one thousand is 1000—a one followed by three zeros, in the general notation ; 1 × 103—in engineering notation, which for this number coincides with : 1 × 103 exactly—in scientific normalized exponential notation ; 1 E+3 exactly—in scientific E notation. The SI prefix for a thousand units is "kilo-", abbreviated to "k"—for instance, a kilometre or "km" is a thousand metres. In the SI writing style, a non-breaking space can be used as a thousands separator, i.e., to separate the digits of a number at every power of 1000. Multiples of thousands are occasionally represented by replacing their last three zeros with the letter "K": for instance, writing "$30K" for $30 000, or denoting the Y2K computer bug of the year 2000. A thousand units of currency, especially dollars or pounds, are colloquially called a grand, which can be abbreviated with a "G" suffix. 1000 is a Harshad number in base 10. The sum of Euler's totient function over the first 57 integers is 1000. Prime Curios! mentions that 1000 is the smallest number that generates three primes in the fastest way possible by concatenation of decremented numbers (1 000 999, 1 000 999 998 997, and 1 000 999 998 997 996 995 994 993 are prime). The criterion excludes counting the number itself.
