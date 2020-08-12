@@ -13,7 +13,7 @@ parser = argparse.ArgumentParser(
     description='Pre-encode text files into tokenized training set.',
     formatter_class=argparse.ArgumentDefaultsHelpFormatter)
 parser.add_argument('--model_name', metavar='MODEL', type=str,
-                    default='774M', help='Pretrained model name')
+                    default='355M', help='Pretrained model name')
 parser.add_argument('--combine', metavar='CHARS', type=int, default=50000,
                     help='Concatenate files with <|endoftext|> separator into chunks of this minimum size')
 parser.add_argument('--encoding', type=str, default='utf-8',
