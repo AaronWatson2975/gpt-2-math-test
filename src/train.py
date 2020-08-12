@@ -29,7 +29,7 @@ parser = argparse.ArgumentParser(
 parser.add_argument('--dataset', metavar='PATH', type=str, required=True,
                     help='Input file, directory, or glob pattern (utf-8 text, or preencoded .npz files).')
 parser.add_argument('--model_name', metavar='MODEL', type=str,
-                    default='355M', help='Pretrained model name')
+                    default='124M', help='Pretrained model name')
 parser.add_argument('--combine', metavar='CHARS', type=int, default=50000,
                     help='Concatenate input files with <|endoftext|> separator into chunks of this minimum size')
 parser.add_argument('--encoding', type=str, default='utf-8',
