@@ -1,0 +1,82 @@
+Addition (usually signified by the plus symbol +) is one of the four basic operations of arithmetic, the other three being subtraction, multiplication and division. The addition of two whole numbers results in the total amount or sum of those values combined. The example in the adjacent picture shows a combination of three apples and two apples, making a total of five apples. This observation is equivalent to the mathematical expression "3 + 2 = 5" i.e., "3 add 2 is equal to 5".
+
+Besides counting items, addition can also be defined and executed without referring to concrete objects, using abstractions called numbers instead, such as integers, real numbers and complex numbers. Addition belongs to arithmetic, a branch of mathematics. In algebra, another area of mathematics, addition can also be performed on abstract objects such as vectors and matrices.
+
+Addition has several important properties. It is commutative, meaning that order does not matter, and it is associative, meaning that when one adds more than two numbers, the order in which addition is performed does not matter (see Summation). Repeated addition of 1 is the same as counting; addition of 0 does not change a number. Addition also obeys predictable rules concerning related operations such as subtraction and multiplication.
+
+Performing addition is one of the simplest numerical tasks. Addition of very small numbers is accessible to toddlers; the most basic task, 1 + 1, can be performed by infants as young as five months and even some members of other animal species. In primary education, students are taught to add numbers in the decimal system, starting with single digits and progressively tackling more difficult problems. Mechanical aids range from the ancient abacus to the modern computer, where research on the most efficient implementations of addition continues to this day.
+
+Addition is written using the plus sign "+" between the terms; that is, in infix notation. The result is expressed with an equals sign. For example,
+
+{\displaystyle 1+1=2}1+1=2 ("one plus one equals two")
+{\displaystyle 2+2=4}2 + 2 = 4 ("two plus two equals four")
+{\displaystyle 1+2=3}{\displaystyle 1+2=3} ("one plus two equals three")
+{\displaystyle 5+4+2=11}{\displaystyle 5+4+2=11} (see "associativity" below)
+{\displaystyle 3+3+3+3=12}3 + 3 + 3 + 3 = 12 (see "multiplication" below)
+
+Columnar addition – the numbers in the column are to be added, with the sum written below the underlined number.
+There are also situations where addition is "understood" even though no symbol appears:
+
+A whole number followed immediately by a fraction indicates the sum of the two, called a mixed number.[2] For example,
+      3½ = 3 + ½ = 3.5.
+This notation can cause confusion since in most other contexts juxtaposition denotes multiplication instead.[3]
+The sum of a series of related numbers can be expressed through capital sigma notation, which compactly denotes iteration. For example,
+
+The numbers or the objects to be added in general addition are collectively referred to as the terms,[4] the addends[5][6] or the summands;[7] this terminology carries over to the summation of multiple terms. This is to be distinguished from factors, which are multiplied. Some authors call the first addend the augend.[5][6] In fact, during the Renaissance, many authors did not consider the first addend an "addend" at all. Today, due to the commutative property of addition, "augend" is rarely used, and both terms are generally called addends.[8]
+
+All of the above terminology derives from Latin. "Addition" and "add" are English words derived from the Latin verb addere, which is in turn a compound of ad "to" and dare "to give", from the Proto-Indo-European root *deh₃- "to give"; thus to add is to give to.[8] Using the gerundive suffix -nd results in "addend", "thing to be added".[a] Likewise from augere "to increase", one gets "augend", "thing to be increased".
+
+"Sum" and "summand" derive from the Latin noun summa "the highest, the top" and associated verb summare. This is appropriate not only because the sum of two positive numbers is greater than either, but because it was common for the ancient Greeks and Romans to add upward, contrary to the modern practice of adding downward, so that a sum was literally higher than the addends.[10] Addere and summare date back at least to Boethius, if not to earlier Roman writers such as Vitruvius and Frontinus; Boethius also used several other terms for the addition operation. The later Middle English terms "adden" and "adding" were popularized by Chaucer.[11]
+
+The plus sign "+" (Unicode:U+002B; ASCII: &#43;) is an abbreviation of the Latin word et, meaning "and".[12] It appears in mathematical works dating back to at least 1489.[13]
+
+Possibly the most fundamental interpretation of addition lies in combining sets:
+
+When two or more disjoint collections are combined into a single collection, the number of objects in the single collection is the sum of the numbers of objects in the original collections.
+This interpretation is easy to visualize, with little danger of ambiguity. It is also useful in higher mathematics; for the rigorous definition it inspires, see Natural numbers below. However, it is not obvious how one should extend this version of addition to include fractional numbers or negative numbers.[14]
+
+One possible fix is to consider collections of objects that can be easily divided, such as pies or, still better, segmented rods.[15] Rather than just combining collections of segments, rods can be joined end-to-end, which illustrates another conception of addition: adding not the rods but the lengths of the rods.
+
+A second interpretation of addition comes from extending an initial length by a given length:
+
+When an original length is extended by a given amount, the final length is the sum of the original length and the length of the extension.[16]
+The sum a + b can be interpreted as a binary operation that combines a and b, in an algebraic sense, or it can be interpreted as the addition of b more units to a. Under the latter interpretation, the parts of a sum a + b play asymmetric roles, and the operation a + b is viewed as applying the unary operation +b to a.[17] Instead of calling both a and b addends, it is more appropriate to call a the augend in this case, since a plays a passive role. The unary view is also useful when discussing subtraction, because each unary addition operation has an inverse unary subtraction operation, and vice versa.
+
+Addition is commutative, meaning that one can change the order of the terms in a sum, but still get the same result. Symbolically, if a and b are any two numbers, then
+
+a + b = b + a.
+The fact that addition is commutative is known as the "commutative law of addition" or "commutative property of addition". Some other binary operations are commutative, such as multiplication, but many others are not, such as subtraction and division.
+
+Addition is associative, which means that when three or more numbers are added together, the order of operations does not change the result.
+
+As an example, should the expression a + b + c be defined to mean (a + b) + c or a + (b + c)? Given that addition is associative, the choice of definition is irrelevant. For any three numbers a, b, and c, it is true that (a + b) + c = a + (b + c). For example, (1 + 2) + 3 = 3 + 3 = 6 = 1 + 5 = 1 + (2 + 3).
+
+When addition is used together with other operations, the order of operations becomes important. In the standard order of operations, addition is a lower priority than exponentiation, nth roots, multiplication and division, but is given equal priority to subtraction.[18]
+
+When adding zero to any number, the quantity does not change; zero is the identity element for addition, also known as the additive identity. In symbols, for any a,
+
+a + 0 = 0 + a = a.
+This law was first identified in Brahmagupta's Brahmasphutasiddhanta in 628 AD, although he wrote it as three separate laws, depending on whether a is negative, positive, or zero itself, and he used words rather than algebraic symbols. Later Indian mathematicians refined the concept; around the year 830, Mahavira wrote, "zero becomes the same as what is added to it", corresponding to the unary statement 0 + a = a. In the 12th century, Bhaskara wrote, "In the addition of cipher, or subtraction of it, the quantity, positive or negative, remains the same", corresponding to the unary statement a + 0 = a.[19]
+
+Within the context of integers, addition of one also plays a special role: for any integer a, the integer (a + 1) is the least integer greater than a, also known as the successor of a.[20] For instance, 3 is the successor of 2 and 7 is the successor of 6. Because of this succession, the value of a + b can also be seen as the bth successor of a, making addition iterated succession. For examples, 6 + 2 is 8, because 8 is the successor of 7, which is the successor of 6, making 8 the 2nd successor of 6.
+
+To numerically add physical quantities with units, they must be expressed with common units.[21] For example, adding 50 milliliters to 150 milliliters gives 200 milliliters. However, if a measure of 5 feet is extended by 2 inches, the sum is 62 inches, since 60 inches is synonymous with 5 feet. On the other hand, it is usually meaningless to try to add 3 meters and 4 square meters, since those units are incomparable; this sort of consideration is fundamental in dimensional analysis.
+
+Studies on mathematical development starting around the 1980s have exploited the phenomenon of habituation: infants look longer at situations that are unexpected.[22] A seminal experiment by Karen Wynn in 1992 involving Mickey Mouse dolls manipulated behind a screen demonstrated that five-month-old infants expect 1 + 1 to be 2, and they are comparatively surprised when a physical situation seems to imply that 1 + 1 is either 1 or 3. This finding has since been affirmed by a variety of laboratories using different methodologies.[23] Another 1992 experiment with older toddlers, between 18 and 35 months, exploited their development of motor control by allowing them to retrieve ping-pong balls from a box; the youngest responded well for small numbers, while older subjects were able to compute sums up to 5.[24]
+
+Even some nonhuman animals show a limited ability to add, particularly primates. In a 1995 experiment imitating Wynn's 1992 result (but using eggplants instead of dolls), rhesus macaque and cottontop tamarin monkeys performed similarly to human infants. More dramatically, after being taught the meanings of the Arabic numerals 0 through 4, one chimpanzee was able to compute the sum of two numerals without further training.[25] More recently, Asian elephants have demonstrated an ability to perform basic arithmetic.[26]
+
+Typically, children first master counting. When given a problem that requires that two items and three items be combined, young children model the situation with physical objects, often fingers or a drawing, and then count the total. As they gain experience, they learn or discover the strategy of "counting-on": asked to find two plus three, children count three past two, saying "three, four, five" (usually ticking off fingers), and arriving at five. This strategy seems almost universal; children can easily pick it up from peers or teachers.[27] Most discover it independently. With additional experience, children learn to add more quickly by exploiting the commutativity of addition by counting up from the larger number, in this case starting with three and counting "four, five." Eventually children begin to recall certain addition facts ("number bonds"), either through experience or rote memorization. Once some facts are committed to memory, children begin to derive unknown facts from known ones. For example, a child asked to add six and seven may know that 6 + 6 = 12 and then reason that 6 + 7 is one more, or 13.[28] Such derived facts can be found very quickly and most elementary school students eventually rely on a mixture of memorized and derived facts to add fluently.[29]
+
+Different nations introduce whole numbers and arithmetic at different ages, with many countries teaching addition in pre-school.[30] However, throughout the world, addition is taught by the end of the first year of elementary school.[31]
+
+The prerequisite to addition in the decimal system is the fluent recall or derivation of the 100 single-digit "addition facts". One could memorize all the facts by rote, but pattern-based strategies are more enlightening and, for most people, more efficient:[32]
+
+Commutative property: Mentioned above, using the pattern a + b = b + a reduces the number of "addition facts" from 100 to 55.
+One or two more: Adding 1 or 2 is a basic task, and it can be accomplished through counting on or, ultimately, intuition.[32]
+Zero: Since zero is the additive identity, adding zero is trivial. Nonetheless, in the teaching of arithmetic, some students are introduced to addition as a process that always increases the addends; word problems may help rationalize the "exception" of zero.[32]
+Doubles: Adding a number to itself is related to counting by two and to multiplication. Doubles facts form a backbone for many related facts, and students find them relatively easy to grasp.[32]
+Near-doubles: Sums such as 6 + 7 = 13 can be quickly derived from the doubles fact 6 + 6 = 12 by adding one more, or from 7 + 7 = 14 but subtracting one.[32]
+Five and ten: Sums of the form 5 + x and 10 + x are usually memorized early and can be used for deriving other facts. For example, 6 + 7 = 13 can be derived from 5 + 7 = 12 by adding one more.[32]
+Making ten: An advanced strategy uses 10 as an intermediate for sums involving 8 or 9; for example, 8 + 6 = 8 + 2 + 4 = 10 + 4 = 14.[32]
+As students grow older, they commit more facts to memory, and learn to derive other facts rapidly and fluently. Many students never commit all the facts to memory, but can still find any basic fact quickly.[29]

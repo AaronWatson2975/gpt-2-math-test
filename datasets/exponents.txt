@@ -1,0 +1,587 @@
+Exponentiation is a mathematical operation, written as bn, involving two numbers, the base b and the exponent or power n. When n is a positive integer, exponentiation corresponds to repeated multiplication of the base: that is, bn is the product of multiplying n bases:
+
+{\displaystyle b^{n}=\underbrace {b\times \dots \times b} _{n\,{\textrm {times}}}.}{\displaystyle b^{n}=\underbrace {b\times \dots \times b} _{n\,{\textrm {times}}}.}
+The exponent is usually shown as a superscript to the right of the base. In that case, bn is called "b raised to the n-th power", "b raised to the power of n", "the n-th power of b", "b to the n-th", or most briefly as "b to the n".
+
+One has b1 = b, and, for any positive integers m and n, one has bn ⋅ bm = bn+m. To extend this property to non-positive integer exponents, b0 is defined to be 1, and b−n with n a positive integer and b not zero is defined as 
+1
+/
+bn
+. In particular, b−1 is equal to 
+1
+/
+b
+, the reciprocal of b.
+
+The definition of exponentiation can be extended to allow any real or complex exponent. Exponentiation by integer exponents can also be defined for a wide variety of algebraic structures, including matrices.
+
+Exponentiation is used extensively in many fields, including economics, biology, chemistry, physics, and computer science, with applications such as compound interest, population growth, chemical reaction kinetics, wave behavior, and public-key cryptography.
+
+The term power (Latin: potentia, potestas, dignitas) is a mistranslation[1][2] of the ancient Greek δύναμις (dúnamis, here: "amplification"[1]) used by the Greek mathematician Euclid for the square of a line,[3] following Hippocrates of Chios.[4] Archimedes discovered and proved the law of exponents, 10a ⋅ 10b = 10a+b, necessary to manipulate powers of 10.[5][better source needed] In the 9th century, the Persian mathematician Muhammad ibn Mūsā al-Khwārizmī used the terms مَال (māl, "possessions", "property") for a square—the Muslims, "like most mathematicians of those and earlier times, thought of a squared number as a depiction of an area, especially of land, hence property"[6]—and كَعْبَة (kaʿbah, "cube") for a cube, which later Islamic mathematicians represented in mathematical notation as the letters mīm (m) and kāf (k), respectively, by the 15th century, as seen in the work of Abū al-Hasan ibn Alī al-Qalasādī.[7]
+
+In the late 16th century, Jost Bürgi used Roman numerals for exponents.[8]
+
+Nicolas Chuquet used a form of exponential notation in the 15th century, which was later used by Henricus Grammateus and Michael Stifel in the 16th century. The word exponent was coined in 1544 by Michael Stifel.[9][10] Samuel Jeake introduced the term indices in 1696.[3] In the 16th century Robert Recorde used the terms square, cube, zenzizenzic (fourth power), sursolid (fifth), zenzicube (sixth), second sursolid (seventh), and zenzizenzizenzic (eighth).[6] Biquadrate has been used to refer to the fourth power as well.
+
+Early in the 17th century, the first form of our modern exponential notation was introduced by René Descartes in his text titled La Géométrie; there, the notation is introduced in Book I.[11]
+
+Some mathematicians (e.g., Isaac Newton) used exponents only for powers greater than two, preferring to represent squares as repeated multiplication. Thus they would write polynomials, for example, as ax + bxx + cx3 + d.
+
+Another historical synonym, involution, is now rare[12] and should not be confused with its more common meaning.
+
+In 1748 Leonhard Euler wrote "consider exponentials or powers in which the exponent itself is a variable. It is clear that quantities of this kind are not algebraic functions, since in those the exponents must be constant."[13] With this introduction of transcendental functions, Euler laid the foundation for the modern introduction of natural logarithm as the inverse function for the natural exponential function, f(x) = ex.
+
+Terminology
+The expression b2 = b ⋅ b is called "the square of b" or "b squared" because the area of a square with side-length b is b2.
+
+The expression b3 = b ⋅ b ⋅ b is called "the cube of b" or "b cubed" because the volume of a cube with side-length b is b3.
+
+When it is a positive integer, the exponent indicates how many copies of the base are multiplied together. For example, 35 = 3 ⋅ 3 ⋅ 3 ⋅ 3 ⋅ 3 = 243. The base 3 appears 5 times in the repeated multiplication, because the exponent is 5. Here, 3 is the base, 5 is the exponent, and 243 is the 5th power of 3 or 3 raised to the 5th power.
+
+The word "raised" is usually omitted, and sometimes "power" as well, so 35 can also be read "3 to the 5th" or "3 to the 5". Therefore, the exponentiation bn can be expressed as "b to the power of n", "b to the nth power", "b to the nth", or most briefly as "b to the n".
+
+Integer exponents
+The exponentiation operation with integer exponents may be defined directly from elementary arithmetic operations.
+
+Positive exponents
+Powers with positive integer exponents may be defined by the base case[14]
+
+{\displaystyle b^{1}=b}b^{1}=b
+and the recurrence relation
+
+{\displaystyle b^{n+1}=b^{n}\cdot b.}{\displaystyle b^{n+1}=b^{n}\cdot b.}
+The associativity of multiplication implies that for any positive integers m and n,
+
+{\displaystyle b^{m+n}=b^{m}\cdot b^{n}.}{\displaystyle b^{m+n}=b^{m}\cdot b^{n}.}
+Zero exponent
+Any nonzero number raised to the 0 power is 1:[15]
+
+{\displaystyle b^{0}=1.}{\displaystyle b^{0}=1.}
+One interpretation of such a power is as an empty product.
+
+The case of 00 is more complicated, and the choice of whether to assign it a value and what value to assign may depend on context. For more details, see Zero to the power of zero.
+
+Negative exponents
+The following identity holds for any integer n and nonzero b:
+
+{\displaystyle b^{-n}={\frac {1}{b^{n}}}.}{\displaystyle b^{-n}={\frac {1}{b^{n}}}.}
+Raising 0 to a negative exponent is undefined, but in some circumstances, it may be interpreted as infinity (∞).
+
+The identity above may be derived through a definition aimed at extending the range of exponents to negative integers.
+
+For non-zero b and positive n, the recurrence relation above can be rewritten as
+
+{\displaystyle b^{n}={\frac {b^{n+1}}{b}},\quad n\geq 1.}{\displaystyle b^{n}={\frac {b^{n+1}}{b}},\quad n\geq 1.}
+By defining this relation as valid for all integer n and nonzero b, it follows that
+
+{\displaystyle {\begin{aligned}b^{0}&={\frac {b^{1}}{b}}=1,\\[3pt]b^{-1}&={\frac {b^{0}}{b}}={\frac {1}{b}},\end{aligned}}}{\displaystyle {\begin{aligned}b^{0}&={\frac {b^{1}}{b}}=1,\\[3pt]b^{-1}&={\frac {b^{0}}{b}}={\frac {1}{b}},\end{aligned}}}
+and more generally for any nonzero b and any nonnegative integer n,
+
+{\displaystyle b^{-n}={\frac {1}{b^{n}}}.}{\displaystyle b^{-n}={\frac {1}{b^{n}}}.}
+This is then readily shown to be true for every integer n.
+
+Identities and properties
+The following identities hold for all integer exponents, provided that the base is non-zero:
+
+{\displaystyle {\begin{aligned}b^{m+n}&=b^{m}\cdot b^{n}\\\left(b^{m}\right)^{n}&=b^{m\cdot n}\\(b\cdot c)^{n}&=b^{n}\cdot c^{n}\end{aligned}}}{\displaystyle {\begin{aligned}b^{m+n}&=b^{m}\cdot b^{n}\\\left(b^{m}\right)^{n}&=b^{m\cdot n}\\(b\cdot c)^{n}&=b^{n}\cdot c^{n}\end{aligned}}}
+Unlike addition and multiplication:
+
+Exponentiation is not commutative. For example, 23 = 8 ≠ 32 = 9.
+Exponentiation is not associative. For example, (23)4 = 84 = 4096, whereas 2(34) = 281 = 2417851639229258349412352. Without parentheses, the conventional order of operations for serial exponentiation in superscript notation is top-down (or right-associative), not bottom-up[16][17][18][19] (or left-associative). That is,
+{\displaystyle b^{p^{q}}=b^{\left(p^{q}\right)},}{\displaystyle b^{p^{q}}=b^{\left(p^{q}\right)},}
+which, in general, is different from
+
+{\displaystyle \left(b^{p}\right)^{q}=b^{pq}.}{\displaystyle \left(b^{p}\right)^{q}=b^{pq}.}
+Powers of a sum
+The powers of a sum can normally be computed from the powers of the summands by the binomial formula
+
+{\displaystyle (a+b)^{n}=\sum _{i=0}^{n}{\binom {n}{i}}a^{i}b^{n-i}=\sum _{i=0}^{n}{\frac {n!}{i!(n-i)!}}a^{i}b^{n-i}.}{\displaystyle (a+b)^{n}=\sum _{i=0}^{n}{\binom {n}{i}}a^{i}b^{n-i}=\sum _{i=0}^{n}{\frac {n!}{i!(n-i)!}}a^{i}b^{n-i}.}
+However, this formula is true only if the summands belong to a structure that is commutative, or, at least if ab = ba. Otherwise, for example if a and b are square matrices of the same size, this formula cannot be used. It follows that in computer algebra, many algorithms involving integer exponents must be changed when the exponentiation bases do not commute. Some general purpose computer algebra systems use a different notation (sometimes ^^ instead of ^) for exponentiation with non-commuting bases, which is then called non-commutative exponentiation.
+
+Combinatorial interpretation
+See also: Exponentiation over sets
+For nonnegative integers n and m, the value of nm is the number of functions from a set of m elements to a set of n elements (see cardinal exponentiation). Such functions can be represented as m-tuples from an n-element set (or as m-letter words from an n-letter alphabet). Some examples for particular values of m and n are given in the following table:
+
+nm	The nm possible m-tuples of elements from the set {1, ..., n}
+{\displaystyle 0^{5}=0}{\displaystyle 0^{5}=0}	none
+{\displaystyle 1^{4}=1}{\displaystyle 1^{4}=1}	{\displaystyle (1,1,1,1)}{\displaystyle (1,1,1,1)}
+{\displaystyle 2^{3}=8}2^{3}=8	{\displaystyle (1,1,1),(1,1,2),(1,2,1),(1,2,2),(2,1,1),(2,1,2),(2,2,1),(2,2,2)}{\displaystyle (1,1,1),(1,1,2),(1,2,1),(1,2,2),(2,1,1),(2,1,2),(2,2,1),(2,2,2)}
+{\displaystyle 3^{2}=9}3^{2}=9	{\displaystyle (1,1),(1,2),(1,3),(2,1),(2,2),(2,3),(3,1),(3,2),(3,3)}{\displaystyle (1,1),(1,2),(1,3),(2,1),(2,2),(2,3),(3,1),(3,2),(3,3)}
+{\displaystyle 4^{1}=4}{\displaystyle 4^{1}=4}	{\displaystyle (1),(2),(3),(4)}{\displaystyle (1),(2),(3),(4)}
+{\displaystyle 5^{0}=1}{\displaystyle 5^{0}=1}	{\displaystyle ()}()
+Particular bases
+Powers of ten
+See also: Scientific notation
+Main article: Power of 10
+In the base ten (decimal) number system, integer powers of 10 are written as the digit 1 followed or preceded by a number of zeroes determined by the sign and magnitude of the exponent. For example, 103 = 1000 and 10−4 = 0.0001.
+
+Exponentiation with base 10 is used in scientific notation to denote large or small numbers. For instance, 299792458 m/s (the speed of light in vacuum, in metres per second) can be written as 2.99792458×108 m/s and then approximated as 2.998×108 m/s.
+
+SI prefixes based on powers of 10 are also used to describe small or large quantities. For example, the prefix kilo means 103 = 1000, so a kilometre is 1000 m.
+
+Powers of two
+Main article: Power of two
+The first negative powers of 2 are commonly used, and have special names, e.g.: half and quarter.
+
+Powers of 2 appear in set theory, since a set with n members has a power set, the set of all of its subsets, which has 2n members.
+
+Integer powers of 2 are important in computer science. The positive integer powers 2n give the number of possible values for an n-bit integer binary number; for example, a byte may take 28 = 256 different values. The binary number system expresses any number as a sum of powers of 2, and denotes it as a sequence of 0 and 1, separated by a binary point, where 1 indicates a power of 2 that appears in the sum; the exponent is determined by the place of this 1: the nonnegative exponents are the rank of the 1 on the left of the point (starting from 0), and the negative exponents are determined by the rank on the right of the point.
+
+Powers of one
+The powers of one are all one: 1n = 1.
+
+Powers of zero
+If the exponent n is positive (n > 0), the nth power of zero is zero: 0n = 0.
+
+If the exponent n is negative (n < 0), the nth power of zero 0n is undefined, because it must equal {\displaystyle 1/0^{-n}}{\displaystyle 1/0^{-n}} with -n > 0, and this would be {\displaystyle 1/0}1/0 according to above.
+
+The expression 00 is either defined as 1, or it is left undefined (see Zero to the power of zero).
+
+Powers of negative one
+If n is an even integer, then (−1)n = 1.
+
+If n is an odd integer, then (−1)n = −1.
+
+Because of this, powers of −1 are useful for expressing alternating sequences. For a similar discussion of powers of the complex number i, see § Powers of complex numbers.
+
+Large exponents
+The limit of a sequence of powers of a number greater than one diverges; in other words, the sequence grows without bound:
+
+bn → ∞ as n → ∞ when b > 1
+This can be read as "b to the power of n tends to +∞ as n tends to infinity when b is greater than one".
+
+Powers of a number with absolute value less than one tend to zero:
+
+bn → 0 as n → ∞ when |b| < 1
+Any power of one is always one:
+
+bn = 1 for all n if b = 1
+Powers of –1 alternate between 1 and –1 as n alternates between even and odd, and thus do not tend to any limit as n grows.
+
+If b < –1, bn, alternates between larger and larger positive and negative numbers as n alternates between even and odd, and thus does not tend to any limit as n grows.
+
+If the exponentiated number varies while tending to 1 as the exponent tends to infinity, then the limit is not necessarily one of those above. A particularly important case is
+
+(1 + 1/n)n → e as n → ∞
+See § The exponential function below.
+
+Other limits, in particular those of expressions that take on an indeterminate form, are described in § Limits of powers below.
+
+Power functions
+
+Power functions for {\displaystyle n=1,3,5}{\displaystyle n=1,3,5}
+
+Power functions for {\displaystyle n=2,4,6}{\displaystyle n=2,4,6}
+Real functions of the form {\displaystyle f(x)=cx^{n}}{\displaystyle f(x)=cx^{n}}, where {\displaystyle c\neq 0}c\neq 0, are sometimes called power functions.[citation needed] When {\displaystyle n}n is an integer and {\displaystyle n\geq 1}n\geq 1, two primary families exist: for {\displaystyle n}n even, and for {\displaystyle n}n odd. In general for {\displaystyle c>0}c>0, when {\displaystyle n}n is even {\displaystyle f(x)=cx^{n}}{\displaystyle f(x)=cx^{n}} will tend towards positive infinity with increasing {\displaystyle x}x, and also towards positive infinity with decreasing {\displaystyle x}x. All graphs from the family of even power functions have the general shape of {\displaystyle y=cx^{2}}{\displaystyle y=cx^{2}}, flattening more in the middle as {\displaystyle n}n increases.[20] Functions with this kind of symmetry ({\displaystyle f(-x)=f(x)}{\displaystyle f(-x)=f(x)}) are called even functions.
+
+When {\displaystyle n}n is odd, {\displaystyle f(x)}f(x)'s asymptotic behavior reverses from positive {\displaystyle x}x to negative {\displaystyle x}x. For {\displaystyle c>0}c>0, {\displaystyle f(x)=cx^{n}}{\displaystyle f(x)=cx^{n}} will also tend towards positive infinity with increasing {\displaystyle x}x, but towards negative infinity with decreasing {\displaystyle x}x. All graphs from the family of odd power functions have the general shape of {\displaystyle y=cx^{3}}{\displaystyle y=cx^{3}}, flattening more in the middle as {\displaystyle n}n increases and losing all flatness there in the straight line for {\displaystyle n=1}n=1. Functions with this kind of symmetry ({\displaystyle f(-x)=-f(x)}{\displaystyle f(-x)=-f(x)}) are called odd functions.
+
+For {\displaystyle c<0}c < 0, the opposite asymptotic behavior is true in each case.[20]
+
+An nth root of a number b is a number x such that xn = b.
+
+If b is a positive real number and n is a positive integer, then there is exactly one positive real solution to xn = b. This solution is called the principal nth root of b. It is denoted n√b, where √   is the radical symbol; alternatively, the principal root may be written b1/n. For example: 91/2 = √9 = 3 and 81/3 = 3√8 = 2.
+
+The fact that {\displaystyle x=b^{\frac {1}{n}}}{\displaystyle x=b^{\frac {1}{n}}} solves {\displaystyle x^{n}=b}{\displaystyle x^{n}=b} follows from noting that
+
+{\displaystyle {\begin{aligned}x^{n}&=\left(b^{\frac {1}{n}}\right)^{n}=\underbrace {b^{\frac {1}{n}}\times b^{\frac {1}{n}}\times \cdots \times b^{\frac {1}{n}}} _{n\,{\textrm {times}}}\\&=b^{\underbrace {\left({\frac {1}{n}}+{\frac {1}{n}}+\cdots +{\frac {1}{n}}\right)} _{n\,{\textrm {times}}}}=b^{\frac {n}{n}}=b^{1}=b.\end{aligned}}}{\displaystyle {\begin{aligned}x^{n}&=\left(b^{\frac {1}{n}}\right)^{n}=\underbrace {b^{\frac {1}{n}}\times b^{\frac {1}{n}}\times \cdots \times b^{\frac {1}{n}}} _{n\,{\textrm {times}}}\\&=b^{\underbrace {\left({\frac {1}{n}}+{\frac {1}{n}}+\cdots +{\frac {1}{n}}\right)} _{n\,{\textrm {times}}}}=b^{\frac {n}{n}}=b^{1}=b.\end{aligned}}}
+If n is even and b is positive, then xn = b has two real solutions, which are the positive and negative nth roots of b, that is, b1/n > 0 and −(b1/n) < 0.
+
+If n is even and b is negative, the equation has no solution in real numbers.
+
+If n is odd, then xn = b has exactly one real solution, which is positive if b is positive (b1/n > 0) and negative if b is negative (b1/n < 0).
+
+Taking a positive real number b to a rational exponent u/v, where u is an integer and v is a positive integer, and considering principal roots only, yields
+
+{\displaystyle b^{\frac {u}{v}}=\left(b^{u}\right)^{\frac {1}{v}}={\sqrt[{v}]{b^{u}}}=\left(b^{\frac {1}{v}}\right)^{u}=\left({\sqrt[{v}]{b}}\right)^{u}.}{\displaystyle b^{\frac {u}{v}}=\left(b^{u}\right)^{\frac {1}{v}}={\sqrt[{v}]{b^{u}}}=\left(b^{\frac {1}{v}}\right)^{u}=\left({\sqrt[{v}]{b}}\right)^{u}.}
+Taking a negative real number b to a rational power u/v, where u/v is in lowest terms, yields a positive real result if u is even, and hence v is odd, because then bu is positive; and yields a negative real result, if u and v are both odd, because then bu is negative. The case of even v (and, hence, odd u) cannot be treated this way within the reals, since there is no real number x such that x2k = −1, the value of bu/v in this case must use the imaginary unit i, as described more fully in the section § Powers of complex numbers.
+
+Thus we have (−27)1/3 = −3 and (−27)2/3 = 9. The number 4 has two 3/2 powers, namely 8 and −8; however, by convention the notation 43/2 employs the principal root, and results in 8. For employing the v-th root the u/v-th power is also called the v/u-th root, and for even v the term principal root denotes also the positive result.
+
+This sign ambiguity needs to be taken care of when applying the power identities. For instance:
+
+{\displaystyle -27=(-27)^{\left(\left({\frac {2}{3}}\right)\left({\frac {3}{2}}\right)\right)}=\left((-27)^{\frac {2}{3}}\right)^{\frac {3}{2}}=9^{\frac {3}{2}}=27}{\displaystyle -27=(-27)^{\left(\left({\frac {2}{3}}\right)\left({\frac {3}{2}}\right)\right)}=\left((-27)^{\frac {2}{3}}\right)^{\frac {3}{2}}=9^{\frac {3}{2}}=27}
+is clearly wrong. The problem starts already in the first equality by introducing a standard notation for an inherently ambiguous situation –asking for an even root– and simply relying wrongly on only one, the conventional or principal interpretation. The same problem occurs also with an inappropriately introduced surd-notation, inherently enforcing a positive result:
+
+{\displaystyle \left((-27)^{\frac {2}{3}}\right)^{\frac {3}{2}}={\sqrt {\left({\sqrt[{3}]{(-27)^{2}}}\right)^{3}}}={\sqrt {(-27)^{2}}}\neq -27}{\displaystyle \left((-27)^{\frac {2}{3}}\right)^{\frac {3}{2}}={\sqrt {\left({\sqrt[{3}]{(-27)^{2}}}\right)^{3}}}={\sqrt {(-27)^{2}}}\neq -27}
+instead of
+
+{\displaystyle \left((-27)^{\frac {2}{3}}\right)^{\frac {3}{2}}=-{\sqrt {\left({\sqrt[{3}]{(-27)^{2}}}\right)^{3}}}=-{\sqrt {(-27)^{2}}}=-27.}{\displaystyle \left((-27)^{\frac {2}{3}}\right)^{\frac {3}{2}}=-{\sqrt {\left({\sqrt[{3}]{(-27)^{2}}}\right)^{3}}}=-{\sqrt {(-27)^{2}}}=-27.}
+In general the same sort of problems occur for complex numbers as described in the section § Failure of power and logarithm identities.
+
+Real exponents
+Exponentiation to real powers of positive real numbers can be defined either by extending the rational powers to reals by continuity, or more usually as given in § Powers via logarithms below. The result is always a positive real number, and the identities and properties shown above for integer exponents are true for positive real bases with non-integer exponents as well.
+
+On the other hand, exponentiation to a real power of a negative real number is much more difficult to define consistently, as it may be non-real and have several values (see § Real exponents with negative bases). One may choose one of these values, called the principal value, but there is no choice of the principal value for which an identity such as
+
+{\displaystyle \left(b^{r}\right)^{s}=b^{r\cdot s}}{\displaystyle \left(b^{r}\right)^{s}=b^{r\cdot s}}
+is true; see § Failure of power and logarithm identities. Therefore, exponentiation with a basis that is not a positive real number is generally viewed as a multivalued function.
+
+Limits of rational exponents
+
+Because the exponential function is continuous we find {\displaystyle \lim _{n\to \infty }e^{x_{n}}=e^{\lim _{n\to \infty }x_{n}}}{\displaystyle \lim _{n\to \infty }e^{x_{n}}=e^{\lim _{n\to \infty }x_{n}}} for convergent sequences (xn). This is shown here for xn = 
+1
+/
+n
+.
+Since any irrational number can be expressed as the limit of a sequence of rational numbers, exponentiation of a positive real number b with an arbitrary real exponent x can be defined by continuity with the rule[21]
+
+{\displaystyle b^{x}=\lim _{r(\in \mathbb {Q} )\to x}b^{r}\quad (b\in \mathbb {R} ^{+},\,x\in \mathbb {R} ),}{\displaystyle b^{x}=\lim _{r(\in \mathbb {Q} )\to x}b^{r}\quad (b\in \mathbb {R} ^{+},\,x\in \mathbb {R} ),}
+where the limit as r gets close to x is taken only over rational values of r. This limit only exists for positive b. The (ε, δ)-definition of limit is used; this involves showing that for any desired accuracy of the result bx one can choose a sufficiently small interval around x so all the rational powers in the interval are within the desired accuracy.
+
+For example, if x = π, the nonterminating decimal representation π = 3.14159… can be used (based on strict monotonicity of the rational power) to obtain the intervals bounded by rational powers
+
+{\displaystyle \left[b^{3},b^{4}\right]}{\displaystyle \left[b^{3},b^{4}\right]}, {\displaystyle \left[b^{3.1},b^{3.2}\right]}{\displaystyle \left[b^{3.1},b^{3.2}\right]}, {\displaystyle \left[b^{3.14},b^{3.15}\right]}{\displaystyle \left[b^{3.14},b^{3.15}\right]}, {\displaystyle \left[b^{3.141},b^{3.142}\right]}{\displaystyle \left[b^{3.141},b^{3.142}\right]}, {\displaystyle \left[b^{3.1415},b^{3.1416}\right]}{\displaystyle \left[b^{3.1415},b^{3.1416}\right]}, {\displaystyle \left[b^{3.14159},b^{3.14160}\right]}{\displaystyle \left[b^{3.14159},b^{3.14160}\right]}, {\displaystyle \ldots }\ldots 
+The bounded intervals converge to a unique real number, denoted by {\displaystyle b^{\pi }}b^{\pi }. This technique can be used to obtain the power of a positive real number b for any irrational exponent. The function fb(x) = bx is thus defined for any real number x.
+
+The exponential function
+Main article: Exponential function
+The important mathematical constant e, sometimes called Euler's number, is approximately equal to 2.718 and is the base of the natural logarithm. Although exponentiation of e could, in principle, be treated the same as exponentiation of any other real number, such exponentials turn out to have particularly elegant and useful properties. Among other things, these properties allow exponentials of e to be generalized in a natural way to other types of exponents, such as complex numbers or even matrices, while coinciding with the familiar meaning of exponentiation with rational exponents.
+
+As a consequence, the notation ex usually denotes a generalized exponentiation definition called the exponential function, exp(x), which can be defined in many equivalent ways, for example, by
+
+{\displaystyle \exp(x)=\lim _{n\to \infty }\left(1+{\frac {x}{n}}\right)^{n}.}{\displaystyle \exp(x)=\lim _{n\to \infty }\left(1+{\frac {x}{n}}\right)^{n}.}
+Among other properties, exp satisfies the exponential identity
+
+{\displaystyle \exp(x+y)=\exp(x)\cdot \exp(y).}{\displaystyle \exp(x+y)=\exp(x)\cdot \exp(y).}
+The exponential function is defined for all integer, fractional, real, and complex values of x. In fact, the matrix exponential is well-defined for square matrices (in which case this exponential identity only holds when x and y commute) and is useful for solving systems of linear differential equations.
+
+Since exp(1) is equal to e, and exp(x) satisfies this exponential identity, it immediately follows that exp(x) coincides with the repeated-multiplication definition of ex for integer x, and it also follows that rational powers denote (positive) roots as usual, so exp(x) coincides with the ex definitions in the previous section for all real x by continuity.
+
+Powers via logarithms
+When ex is defined as the exponential function, bx can be defined, for other positive real numbers b, in terms of ex. Specifically, the natural logarithm ln(x) is the inverse of the exponential function ex. It is defined for b > 0, and satisfies
+
+{\displaystyle b=e^{\ln b}.}{\displaystyle b=e^{\ln b}.}
+If bx is to preserve the logarithm and exponent rules, then one must have
+
+{\displaystyle b^{x}=\left(e^{\ln b}\right)^{x}=e^{x\cdot \ln b}}{\displaystyle b^{x}=\left(e^{\ln b}\right)^{x}=e^{x\cdot \ln b}}
+for each real number x.
+
+This can be used as an alternative definition of the real-number power bx and agrees with the definition given above using rational exponents and continuity. The definition of exponentiation using logarithms is more common in the context of complex numbers, as discussed below.
+
+Real exponents with negative bases
+Powers of a positive real number are always positive real numbers. The solution of x2 = 4, however, can be either 2 or −2. The principal value of 41/2 is 2, but −2 is also a valid square root. If the definition of exponentiation of real numbers is extended to allow negative results then the result is no longer well-behaved.
+
+Neither the logarithm method nor the rational exponent method can be used to define br as a real number for a negative real number b and an arbitrary real number r. Indeed, er is positive for every real number r, so ln(b) is not defined as a real number for b ≤ 0.
+
+The rational exponent method cannot be used for negative values of b because it relies on continuity. The function f(r) = br has a unique continuous extension[21] from the rational numbers to the real numbers for each b > 0. But when b < 0, the function f is not even continuous on the set of rational numbers r for which it is defined.
+
+For example, consider b = −1. The nth root of −1 is −1 for every odd natural number n. So if n is an odd positive integer, (−1)(m/n) = −1 if m is odd, and (−1)(m/n) = 1 if m is even. Thus the set of rational numbers q for which (−1)q = 1 is dense in the rational numbers, as is the set of q for which (−1)q = −1. This means that the function (−1)q is not continuous at any rational number q where it is defined.
+
+On the other hand, arbitrary complex powers of negative numbers b can be defined by choosing a complex logarithm of b.
+
+Irrational exponents
+Main article: Gelfond–Schneider theorem
+If b is a positive real algebraic number, and x is a rational number, it has been shown above that bx is an algebraic number. This remains true even if one accepts any algebraic number for b, with the only difference that bx may take several values (a finite number, see below), which are all algebraic. The Gelfond–Schneider theorem provides some information on the nature of bx when x is irrational (that is, not rational). It states:
+
+If b is an algebraic number different from 0 and 1, and x an irrational algebraic number, then all values of bx (there are infinitely many) are transcendental (that is, not algebraic).
+
+Complex exponents with a positive real base
+If b is a positive real number, and z is any complex number, the power bz is defined as
+
+{\displaystyle b^{z}=\left(e^{\ln b}\right)^{z}=e^{(z\ln b)},}{\displaystyle b^{z}=\left(e^{\ln b}\right)^{z}=e^{(z\ln b)},}
+where x = ln(b) is the unique real solution to the equation ex = b, and the complex power of e is defined by the exponential function, which is the unique function of a complex variable that is equal to its derivative and takes the value 1 for x = 0.
+
+As, in general, bz is not a real number, an expression such as (bz)w is not defined by the previous definition. It must be interpreted via the rules for powers of complex numbers, and, unless z is real or w is integer, does not generally equal bzw, as one might expect.
+
+There are various definitions of the exponential function but they extend compatibly to complex numbers and satisfy the exponential property. For any complex numbers z and w, the exponential function satisfies {\displaystyle e^{z+w}=e^{z}e^{w}}{\displaystyle e^{z+w}=e^{z}e^{w}}. In particular, for any complex number {\displaystyle z=x+iy}{\displaystyle z=x+iy}
+
+{\displaystyle e^{z}=e^{x+iy}=e^{x}\cdot e^{iy},}{\displaystyle e^{z}=e^{x+iy}=e^{x}\cdot e^{iy},}
+The second term {\displaystyle e^{iy}}e^{{iy}} has a value given by Euler's formula
+
+{\displaystyle e^{iy}=\cos y+i\sin y.}{\displaystyle e^{iy}=\cos y+i\sin y.}
+This formula links problems in trigonometry and algebra.
+
+Therefore, for any complex number {\displaystyle z=x+iy,}{\displaystyle z=x+iy,}
+
+{\displaystyle e^{z}=e^{x+iy}=e^{x}\cdot e^{iy}=e^{x}(\cos y+i\sin y).}{\displaystyle e^{z}=e^{x+iy}=e^{x}\cdot e^{iy}=e^{x}(\cos y+i\sin y).}
+Because of the Pythagorean trigonometric identity, the absolute value of {\displaystyle \cos y+i\sin y}{\displaystyle \cos y+i\sin y} is 1. Therefore, the real factor {\displaystyle e^{x}}e^{x} is the absolute value of {\displaystyle e^{z}}e^{z} and the imaginary part {\displaystyle y}y of the exponent identifies the argument (angle) of the complex number {\displaystyle e^{z}}e^{z}.
+
+Series definition
+The exponential function being equal to its derivative and satisfying {\displaystyle e^{0}=1,}{\displaystyle e^{0}=1,} its Taylor series must be
+
+{\displaystyle e^{z}=\sum _{n=0}^{\infty }{z^{n} \over n!}=1+z+{\frac {z^{2}}{2!}}+{\frac {z^{3}}{3!}}+{\frac {z^{4}}{4!}}+\cdots .}{\displaystyle e^{z}=\sum _{n=0}^{\infty }{z^{n} \over n!}=1+z+{\frac {z^{2}}{2!}}+{\frac {z^{3}}{3!}}+{\frac {z^{4}}{4!}}+\cdots .}
+This infinite series, which is often taken as the definition of the exponential function ez for arbitrary complex exponents, is absolutely convergent for all complex numbers z.
+
+When z is purely imaginary, that is, z = iy for a real number y, the series above becomes
+
+{\displaystyle e^{iy}=1+iy+{\frac {(iy)^{2}}{2!}}+{\frac {(iy)^{3}}{3!}}+{\frac {(iy)^{4}}{4!}}+\cdots ,}{\displaystyle e^{iy}=1+iy+{\frac {(iy)^{2}}{2!}}+{\frac {(iy)^{3}}{3!}}+{\frac {(iy)^{4}}{4!}}+\cdots ,}
+which (because it converges absolutely) may be reordered to
+
+{\displaystyle e^{iy}=\left(1-{\frac {y^{2}}{2!}}+{\frac {y^{4}}{4!}}-{\frac {y^{6}}{6!}}+\cdots \right)+i\left(y-{\frac {y^{3}}{3!}}+{\frac {y^{5}}{5!}}-\cdots \right).}{\displaystyle e^{iy}=\left(1-{\frac {y^{2}}{2!}}+{\frac {y^{4}}{4!}}-{\frac {y^{6}}{6!}}+\cdots \right)+i\left(y-{\frac {y^{3}}{3!}}+{\frac {y^{5}}{5!}}-\cdots \right).}
+The real and the imaginary parts of this expression are Taylor expansions of cosine and sine respectively, centered at zero, implying Euler's formula:
+
+{\displaystyle e^{iy}=\cos y+i\sin y.}{\displaystyle e^{iy}=\cos y+i\sin y.}
+Limit definition
+
+This animation shows by repeated multiplications in the complex plane for values of n (denoted as N in the picture), increasing from 1 to 100, how {\displaystyle (1+i\pi /n)^{n}}{\displaystyle (1+i\pi /n)^{n}} approaches −1. The values of {\displaystyle (1+i\pi /n)^{k},}{\displaystyle (1+i\pi /n)^{k},} for k = 0 ... n, are the vertices of a polygonal path whose leftmost endpoint is {\displaystyle (1+i\pi /k)^{k}}{\displaystyle (1+i\pi /k)^{k}} for the actual k. It can be seen that as k gets larger {\displaystyle (1+i\pi /k)^{k}}{\displaystyle (1+i\pi /k)^{k}} approaches the limit −1, illustrating Euler's identity: {\displaystyle e^{i\pi }=-1.}{\displaystyle e^{i\pi }=-1.}
+Another characterization of the exponential function {\displaystyle e^{z}}e^{z} is as the limit of {\displaystyle (1+z/n)^{n}}{\displaystyle (1+z/n)^{n}}, as n approaches infinity. By thinking of the nth power in this definition as repeated multiplication in polar form, it can be used to visually illustrate Euler's formula. Any complex number can be represented in polar form as {\displaystyle (r,\theta )}(r,\theta ), where r is the absolute value and θ is its argument. The product of two complex numbers {\displaystyle (r_{1},\theta _{1})}{\displaystyle (r_{1},\theta _{1})} and {\displaystyle (r_{2},\theta _{2})}{\displaystyle (r_{2},\theta _{2})} is {\displaystyle (r_{1}r_{2},\theta _{1}+\theta _{2})}{\displaystyle (r_{1}r_{2},\theta _{1}+\theta _{2})}.
+
+Consider the right triangle in the complex plane which has {\displaystyle 0}{\displaystyle 0}, {\displaystyle 1}1, and {\displaystyle 1+ix/n}{\displaystyle 1+ix/n} as vertices. For large values of n, the triangle is almost a circular sector with a radius of 1 and a small central angle equal to {\displaystyle x/n}{\displaystyle x/n} radians. 1 + {\displaystyle ix/n}{\displaystyle ix/n} may then be approximated by the number with polar form {\displaystyle (1,x/n)}{\displaystyle (1,x/n)}. So, in the limit as n approaches infinity, {\displaystyle (1+ix/n)^{n}}{\displaystyle (1+ix/n)^{n}} approaches {\displaystyle (1,x/n)^{n}=(1^{n},nx/n)=(1,x)}{\displaystyle (1,x/n)^{n}=(1^{n},nx/n)=(1,x)}, the point on the unit circle whose angle from the positive real axis is x radians. The Cartesian coordinates of this point are {\displaystyle (\cos x,\sin x)}{\displaystyle (\cos x,\sin x)}, so {\displaystyle e^{ix}=\cos x+i\sin x}e^{ix} = \cos x + i \sin x; this is again Euler's formula, allowing the same connections to the trigonometric functions as elaborated with the series definition.
+
+Periodicity
+The solutions to the equation {\displaystyle e^{z}=1}{\displaystyle e^{z}=1} are the integer multiples of {\displaystyle 2\pi i}2\pi i:
+
+{\displaystyle \left\{z:e^{z}=1\right\}=\{2k\pi i:k\in \mathbb {Z} \}}{\displaystyle \left\{z:e^{z}=1\right\}=\{2k\pi i:k\in \mathbb {Z} \}}
+Thus, if {\displaystyle v}v is a complex number such that {\displaystyle e^{v}=w}{\displaystyle e^{v}=w}, then every {\displaystyle z}z that also satisfies {\displaystyle e^{z}=w}{\displaystyle e^{z}=w} can be obtained from {\displaystyle e^{z}=e^{v}\cdot 1=e^{v+i2k\pi }}{\displaystyle e^{z}=e^{v}\cdot 1=e^{v+i2k\pi }}, i.e., by adding an arbitrary integer multiple of {\displaystyle 2\pi i}2\pi i to {\displaystyle v}v:
+
+{\displaystyle \left\{z:e^{z}=w\right\}=\{v+2k\pi i:k\in \mathbb {Z} \}}{\displaystyle \left\{z:e^{z}=w\right\}=\{v+2k\pi i:k\in \mathbb {Z} \}}
+That is, the complex exponential function {\displaystyle e^{z}=\exp(z)=\exp(z+2k\pi i)}{\displaystyle e^{z}=\exp(z)=\exp(z+2k\pi i)} for any integer k is a periodic function with period {\displaystyle 2\pi i}2\pi i.
+
+Examples
+{\displaystyle {\begin{aligned}2^{i}&=e^{i\ln(2)}=\cos {\big (}\ln(2){\big )}+i\sin {\big (}\ln(2){\big )}\approx 0.76924+0.63896i,\\e^{i}&=\cos(1)+i\sin(1)\approx 0.54030+0.84147i,\\\left(e^{2\pi }\right)^{i}&=e^{i\ln(e^{2\pi })}=e^{i(2\pi )}=\cos(2\pi )+i\sin(2\pi )=1.\end{aligned}}}{\displaystyle {\begin{aligned}2^{i}&=e^{i\ln(2)}=\cos {\big (}\ln(2){\big )}+i\sin {\big (}\ln(2){\big )}\approx 0.76924+0.63896i,\\e^{i}&=\cos(1)+i\sin(1)\approx 0.54030+0.84147i,\\\left(e^{2\pi }\right)^{i}&=e^{i\ln(e^{2\pi })}=e^{i(2\pi )}=\cos(2\pi )+i\sin(2\pi )=1.\end{aligned}}}
+Powers of complex numbers
+Integer powers of nonzero complex numbers are defined by repeated multiplication or division as above. If i is the imaginary unit and n is an integer, then in equals 1, i, −1, or −i, according to whether the integer n is congruent to 0, 1, 2, or 3 modulo 4. Because of this, the powers of i are useful for expressing sequences of period 4.
+
+Complex powers of positive reals are defined via ex as in section Complex exponents with positive real bases above. These are continuous functions.
+
+Trying to extend these functions to the general case of noninteger powers of complex numbers that are not positive reals leads to difficulties. Either we define discontinuous functions or multivalued functions. Neither of these options is entirely satisfactory.
+
+The rational power of a complex number must be the solution to an algebraic equation. Therefore, it always has a finite number of possible values. For example, w = z1/2 must be a solution to the equation w2 = z. But if w is a solution, then so is −w, because (−1)2 = 1. A unique but somewhat arbitrary solution called the principal value can be chosen using a general rule which also applies for nonrational powers.
+
+Complex powers and logarithms are more naturally handled as single valued functions on a Riemann surface. Single valued versions are defined by choosing a sheet. The value has a discontinuity along a branch cut. Choosing one out of many solutions as the principal value leaves us with functions that are not continuous, and the usual rules for manipulating powers can lead us astray.
+
+Any nonrational power of a complex number has an infinite number of possible values because of the multi-valued nature of the complex logarithm. The principal value is a single value chosen from these by a rule which, amongst its other properties, ensures powers of complex numbers with a positive real part and zero imaginary part give the same value as does the rule defined above for the corresponding real base.
+
+Exponentiating a real number to a complex power is formally a different operation from that for the corresponding complex number. However, in the common case of a positive real number the principal value is the same.
+
+The powers of negative real numbers are not always defined and are discontinuous even where defined. In fact, they are only defined when the exponent is a rational number with the denominator being an odd integer. When dealing with complex numbers the complex number operation is normally used instead.
+
+Complex exponents with complex bases
+For complex numbers w and z with w ≠ 0, the notation wz is ambiguous in the same sense that log w is.
+
+To obtain a value of wz, first choose a logarithm of w; call it log w. Such a choice may be the principal value Log w (the default, if no other specification is given), or perhaps a value given by some other branch of log w fixed in advance. Then, using the complex exponential function one defines
+
+{\displaystyle w^{z}=e^{z\log w}}w^{z}=e^{z\log w}
+because this agrees with the earlier definition in the case where w is a positive real number and the (real) principal value of log w is used.
+
+If z is an integer, then the value of wz is independent of the choice of log w, and it agrees with the earlier definition of exponentiation with an integer exponent.
+
+If z is a rational number m/n in lowest terms with z > 0, then the countably infinitely many choices of log w yield only n different values for wz; these values are the n complex solutions s to the equation sn = wm.
+
+If z is an irrational number, then the countably infinitely many choices of log w lead to infinitely many distinct values for wz.
+
+The computation of complex powers is facilitated by converting the base w to polar form, as described in detail below.
+
+A similar construction is employed in quaternions.
+
+Complex roots of unity
+Main article: Root of unity
+
+The three 3rd roots of 1
+A complex number w such that wn = 1 for a positive integer n is an nth root of unity. Geometrically, the nth roots of unity lie on the unit circle of the complex plane at the vertices of a regular n-gon with one vertex on the real number 1.
+
+If wn = 1 but wk ≠ 1 for all natural numbers k such that 0 < k < n, then w is called a primitive nth root of unity. The negative unit −1 is the only primitive square root of unity. The imaginary unit i is one of the two primitive 4th roots of unity; the other one is −i.
+
+The number e
+2πi
+/
+n
+ is the primitive nth root of unity with the smallest positive argument. (It is sometimes called the principal nth root of unity, although this terminology is not universal and should not be confused with the principal value of n√1, which is 1.[22][23][24])
+
+The other nth roots of unity are given by
+
+{\displaystyle \left(e^{{\frac {2}{n}}\pi i}\right)^{k}=e^{{\frac {2}{n}}\pi ik}}\left(e^{{\frac {2}{n}}\pi i}\right)^{k}=e^{{\frac {2}{n}}\pi ik}
+for 2 ≤ k ≤ n.
+
+Roots of arbitrary complex numbers
+Although there are infinitely many possible values for a general complex logarithm, there are only a finite number of values for the power wq in the important special case where q = 1/n and n is a positive integer. These are the nth roots of w; they are solutions of the equation zn = w. As with real roots, a second root is also called a square root and a third root is also called a cube root.
+
+It is usual in mathematics to define w1/n as the principal value of the root, which is, conventionally, the nth root whose argument has the smallest absolute value. When w is a positive real number, this is coherent with the usual convention of defining w1/n as the unique positive real nth root. On the other hand, when w is a negative real number, and n is an odd integer, the unique real nth root is not one of the two nth roots whose argument has the smallest absolute value. In this case, the meaning of w1/n may depend on the context, and some care may be needed for avoiding errors.
+
+The set of nth roots of a complex number w is obtained by multiplying the principal value w1/n by each of the nth roots of unity. For example, the fourth roots of 16 are 2, −2, 2i, and −2i, because the principal value of the fourth root of 16 is 2 and the fourth roots of unity are 1, −1, i, and −i.
+
+Computing complex powers
+It is often easier to compute complex powers by writing the number to be exponentiated in polar form. Every complex number z can be written in the polar form
+
+{\displaystyle z=re^{i\theta }=e^{\ln(r)+i\theta },}{\displaystyle z=re^{i\theta }=e^{\ln(r)+i\theta },}
+where r is a nonnegative real number and θ is the (real) argument of z. The polar form has a simple geometric interpretation: if a complex number u + iv is thought of as representing a point (u, v) in the complex plane using Cartesian coordinates, then (r, θ) is the same point in polar coordinates. That is, r is the "radius" r2 = u2 + v2 and θ is the "angle" θ = atan2(v, u). The polar angle θ is ambiguous since any integer multiple of 2π could be added to θ without changing the location of the point. Each choice of θ gives in general a different possible value of the power. A branch cut can be used to choose a specific value. The principal value (the most common branch cut), corresponds to θ chosen in the interval (−π, π]. For complex numbers with a positive real part and zero imaginary part using the principal value gives the same result as using the corresponding real number.
+
+In order to compute the complex power wz, write w in polar form:
+
+{\displaystyle w=re^{i\theta }.}{\displaystyle w=re^{i\theta }.}
+Then
+
+{\displaystyle \log(w)=\ln(r)+i\theta ,}{\displaystyle \log(w)=\ln(r)+i\theta ,}
+and thus
+
+{\displaystyle w^{z}=e^{z\log(w)}=e^{z(\ln(r)+i\theta )}.}{\displaystyle w^{z}=e^{z\log(w)}=e^{z(\ln(r)+i\theta )}.}
+If z is decomposed as c + di, then the formula for wz can be written more explicitly as
+
+{\displaystyle (r^{c}e^{-d\theta })e^{i(d\ln(r)+c\theta )}=(r^{c}e^{-d\theta }){\big [}\cos {\big (}d\ln(r)+c\theta {\big )}+i\sin {\big (}d\ln(r)+c\theta {\big )}{\big ]}.}{\displaystyle (r^{c}e^{-d\theta })e^{i(d\ln(r)+c\theta )}=(r^{c}e^{-d\theta }){\big [}\cos {\big (}d\ln(r)+c\theta {\big )}+i\sin {\big (}d\ln(r)+c\theta {\big )}{\big ]}.}
+This final formula allows complex powers to be computed easily from decompositions of the base into polar form and the exponent into Cartesian form. It is shown here both in polar form and in Cartesian form (via Euler's identity).
+
+The following examples use the principal value, the branch cut which causes θ to be in the interval (−π, π]. To compute ii, write i in polar and Cartesian forms:
+
+{\displaystyle {\begin{aligned}i&=1\cdot e^{{\frac {1}{2}}i\pi },\\i&=0+1i.\end{aligned}}}{\displaystyle {\begin{aligned}i&=1\cdot e^{{\frac {1}{2}}i\pi },\\i&=0+1i.\end{aligned}}}
+Then the formula above, with r = 1, θ = 
+π
+/
+2
+, c = 0, and d = 1, yields
+
+{\displaystyle i^{i}=\left(1^{0}e^{-{\frac {1}{2}}\pi }\right)e^{i\left[1\cdot \ln(1)+0\cdot {\frac {1}{2}}\pi \right]}=e^{-{\frac {1}{2}}\pi }\approx 0.2079.}{\displaystyle i^{i}=\left(1^{0}e^{-{\frac {1}{2}}\pi }\right)e^{i\left[1\cdot \ln(1)+0\cdot {\frac {1}{2}}\pi \right]}=e^{-{\frac {1}{2}}\pi }\approx 0.2079.}
+Similarly, to find (−2)3 + 4i, compute the polar form of −2:
+
+{\displaystyle -2=2e^{i\pi }}-2=2e^{i\pi }
+and use the formula above to compute
+
+{\displaystyle (-2)^{3+4i}=(2^{3}e^{-4\pi })e^{i[4\ln(2)+3\pi ]}\approx (2.602-1.006i)\cdot 10^{-5}.}{\displaystyle (-2)^{3+4i}=(2^{3}e^{-4\pi })e^{i[4\ln(2)+3\pi ]}\approx (2.602-1.006i)\cdot 10^{-5}.}
+The value of a complex power depends on the branch used. For example, if the polar form i = 1e5πi/2 is used to compute ii, the power is found to be e−5π/2; the principal value of ii, computed above, is e−π/2. The set of all possible values for ii is given by[25]
+
+{\displaystyle {\begin{aligned}i&=1\cdot e^{{\frac {1}{2}}i\pi +i2\pi k}\mid k\in \mathbb {Z} ,\\i^{i}&=e^{i\left({\frac {1}{2}}i\pi +i2\pi k\right)}\\&=e^{-\left({\frac {1}{2}}\pi +2\pi k\right)}.\end{aligned}}}{\displaystyle {\begin{aligned}i&=1\cdot e^{{\frac {1}{2}}i\pi +i2\pi k}\mid k\in \mathbb {Z} ,\\i^{i}&=e^{i\left({\frac {1}{2}}i\pi +i2\pi k\right)}\\&=e^{-\left({\frac {1}{2}}\pi +2\pi k\right)}.\end{aligned}}}
+So there is an infinity of values that are possible candidates for the value of ii, one for each integer k. All of them have a zero imaginary part, so one can say ii has an infinity of valid real values.
+
+Failure of power and logarithm identities
+Some identities for powers and logarithms for positive real numbers will fail for complex numbers, no matter how complex powers and complex logarithms are defined as single-valued functions. For example:
+
+The identity log(bx) = x ⋅ log b holds whenever b is a positive real number and x is a real number. But for the principal branch of the complex logarithm one has
+{\displaystyle i\pi =\log(-1)=\log \left[(-i)^{2}\right]\neq 2\log(-i)=2\left(-{\frac {i\pi }{2}}\right)=-i\pi }i\pi =\log(-1)=\log \left[(-i)^{2}\right]\neq 2\log(-i)=2\left(-{\frac {i\pi }{2}}\right)=-i\pi 
+Regardless of which branch of the logarithm is used, a similar failure of the identity will exist. The best that can be said (if only using this result) is that:
+
+{\displaystyle \log(w^{z})\equiv z\cdot \log(w){\pmod {2\pi i}}}\log(w^{z})\equiv z\cdot \log(w){\pmod {2\pi i}}
+This identity does not hold even when considering log as a multivalued function. The possible values of log(wz) contain those of z ⋅ log w as a subset. Using Log(w) for the principal value of log(w) and m, n as any integers the possible values of both sides are:
+
+{\displaystyle {\begin{aligned}\left\{\log(w^{z})\right\}&=\left\{z\cdot \operatorname {Log} (w)+z\cdot 2\pi in+2\pi im\right\}\\\left\{z\cdot \log(w)\right\}&=\left\{z\cdot \operatorname {Log} (w)+z\cdot 2\pi in\right\}\end{aligned}}}{\begin{aligned}\left\{\log(w^{z})\right\}&=\left\{z\cdot \operatorname {Log} (w)+z\cdot 2\pi in+2\pi im\right\}\\\left\{z\cdot \log(w)\right\}&=\left\{z\cdot \operatorname {Log} (w)+z\cdot 2\pi in\right\}\end{aligned}}
+The identities (bc)x = bxcx and (b/c)x = bx/cx are valid when b and c are positive real numbers and x is a real number. But a calculation using principal branches shows that
+{\displaystyle 1=(-1\cdot -1)^{\frac {1}{2}}\not =(-1)^{\frac {1}{2}}(-1)^{\frac {1}{2}}=-1}{\displaystyle 1=(-1\cdot -1)^{\frac {1}{2}}\not =(-1)^{\frac {1}{2}}(-1)^{\frac {1}{2}}=-1}
+and
+
+{\displaystyle i=(-1)^{\frac {1}{2}}=\left({\frac {1}{-1}}\right)^{\frac {1}{2}}\not ={\frac {1^{\frac {1}{2}}}{(-1)^{\frac {1}{2}}}}={\frac {1}{i}}=-i}{\displaystyle i=(-1)^{\frac {1}{2}}=\left({\frac {1}{-1}}\right)^{\frac {1}{2}}\not ={\frac {1^{\frac {1}{2}}}{(-1)^{\frac {1}{2}}}}={\frac {1}{i}}=-i}
+On the other hand, when x is an integer, the identities are valid for all nonzero complex numbers.
+
+If exponentiation is considered as a multivalued function then the possible values of (−1 ⋅ −1)1/2 are {1, −1}. The identity holds, but saying {1} = {(−1 ⋅ −1)1/2} is wrong.
+The identity (ex)y = exy holds for real numbers x and y, but assuming its truth for complex numbers leads to the following paradox, discovered in 1827 by Clausen:[26] For any integer n, we have:
+{\displaystyle e^{1+2\pi in}=e^{1}e^{2\pi in}=e\cdot 1=e}{\displaystyle e^{1+2\pi in}=e^{1}e^{2\pi in}=e\cdot 1=e}
+{\displaystyle \left(e^{1+2\pi in}\right)^{1+2\pi in}=e\qquad }{\displaystyle \left(e^{1+2\pi in}\right)^{1+2\pi in}=e\qquad } (taking the {\displaystyle (1+2\pi in)}{\displaystyle (1+2\pi in)}-th power of both sides)
+{\displaystyle e^{1+4\pi in-4\pi ^{2}n^{2}}=e\qquad }{\displaystyle e^{1+4\pi in-4\pi ^{2}n^{2}}=e\qquad } (using {\displaystyle \left(e^{x}\right)^{y}=e^{xy}}{\displaystyle \left(e^{x}\right)^{y}=e^{xy}} and expanding the exponent)
+{\displaystyle e^{1}e^{4\pi in}e^{-4\pi ^{2}n^{2}}=e\qquad }{\displaystyle e^{1}e^{4\pi in}e^{-4\pi ^{2}n^{2}}=e\qquad } (using {\displaystyle e^{x+y}=e^{x}e^{y}}{\displaystyle e^{x+y}=e^{x}e^{y}})
+{\displaystyle e^{-4\pi ^{2}n^{2}}=1\qquad }{\displaystyle e^{-4\pi ^{2}n^{2}}=1\qquad } (dividing by e)
+but this is false when the integer n is nonzero. The error is the following: by definition, {\displaystyle e^{y}}e^{y} is a notation for {\displaystyle \exp(y),}{\displaystyle \exp(y),} a true function, and {\displaystyle x^{y}}x^y is a notation for {\displaystyle \exp(y\log x),}{\displaystyle \exp(y\log x),} which is a multi-valued function. Thus the notation is ambiguous when x = e. Here, before expanding the exponent, the second line should be
+{\displaystyle \exp \left((1+2\pi in)\log \exp(1+2\pi in)\right)=\exp(1+2\pi in).}{\displaystyle \exp \left((1+2\pi in)\log \exp(1+2\pi in)\right)=\exp(1+2\pi in).}
+Therefore, when expanding the exponent, one has implicitly supposed that {\displaystyle \log \exp z=z}{\displaystyle \log \exp z=z} for complex values of z, which is wrong, as the complex logarithm is multivalued. In other words, the wrong identity (ex)y = exy must be replaced by the identity
+{\displaystyle \left(e^{x}\right)^{y}=e^{y\log e^{x}},}{\displaystyle \left(e^{x}\right)^{y}=e^{y\log e^{x}},}
+which is a true identity between multivalued functions.
+Generalizations
+Monoids
+Exponentiation with integer exponents can be defined in any multiplicative monoid.[27] A monoid is an algebraic structure consisting of a set X together with a rule for composition ("multiplication") satisfying an associative law and a multiplicative identity, denoted by 1. Exponentiation is defined inductively by
+
+{\displaystyle x^{0}=1}{\displaystyle x^{0}=1} for all {\displaystyle x\in X}x\in X,
+{\displaystyle x^{n+1}=x^{n}x}{\displaystyle x^{n+1}=x^{n}x} for all {\displaystyle x\in X}x\in X and non-negative integers n,
+If n is a negative integer, then {\displaystyle x^{n}}x^{n} is only defined[28] if {\displaystyle x}x has an inverse in X.
+Monoids include many structures of importance in mathematics, including groups and rings (under multiplication), with more specific examples of the latter being matrix rings and fields.
+
+Matrices and linear operators
+If A is a square matrix, then the product of A with itself n times is called the matrix power. Also {\displaystyle A^{0}}A^{0} is defined to be the identity matrix,[29] and if A is invertible, then {\displaystyle A^{-n}=\left(A^{-1}\right)^{n}}{\displaystyle A^{-n}=\left(A^{-1}\right)^{n}}.
+
+Matrix powers appear often in the context of discrete dynamical systems, where the matrix A expresses a transition from a state vector x of some system to the next state Ax of the system.[30] This is the standard interpretation of a Markov chain, for example. Then {\displaystyle A^{2}x}A^{2}x is the state of the system after two time steps, and so forth: {\displaystyle A^{n}x}A^{n}x is the state of the system after n time steps. The matrix power {\displaystyle A^{n}}A^{n} is the transition matrix between the state now and the state at a time n steps in the future. So computing matrix powers is equivalent to solving the evolution of the dynamical system. In many cases, matrix powers can be expediently computed by using eigenvalues and eigenvectors.
+
+Apart from matrices, more general linear operators can also be exponentiated. An example is the derivative operator of calculus, {\displaystyle d/dx}d/dx, which is a linear operator acting on functions {\displaystyle f(x)}f(x) to give a new function {\displaystyle (d/dx)f(x)=f'(x)}{\displaystyle (d/dx)f(x)=f'(x)}. The n-th power of the differentiation operator is the n-th derivative:
+
+{\displaystyle \left({\frac {d}{dx}}\right)^{n}f(x)={\frac {d^{n}}{dx^{n}}}f(x)=f^{(n)}(x).}\left({\frac {d}{dx}}\right)^{n}f(x)={\frac {d^{n}}{dx^{n}}}f(x)=f^{(n)}(x).
+These examples are for discrete exponents of linear operators, but in many circumstances it is also desirable to define powers of such operators with continuous exponents. This is the starting point of the mathematical theory of semigroups.[31] Just as computing matrix powers with discrete exponents solves discrete dynamical systems, so does computing matrix powers with continuous exponents solve systems with continuous dynamics. Examples include approaches to solving the heat equation, Schrödinger equation, wave equation, and other partial differential equations including a time evolution. The special case of exponentiating the derivative operator to a non-integer power is called the fractional derivative which, together with the fractional integral, is one of the basic operations of the fractional calculus.
+
+Finite fields
+A field is an algebraic structure in which multiplication, addition, subtraction, and division are all well-defined and satisfy their familiar properties. The real numbers, for example, form a field, as do the complex numbers and rational numbers. Unlike these familiar examples of fields, which are all infinite sets, some fields have only finitely many elements. The simplest example is the field with two elements {\displaystyle F_{2}=\{0,1\}}F_{2}=\{0,1\} with addition defined by {\displaystyle 0+1=1+0=1}0+1=1+0=1 and {\displaystyle 0+0=1+1=0}0+0=1+1=0, and multiplication {\displaystyle 0\cdot 0=1\cdot 0=0\cdot 1=0}0\cdot 0=1\cdot 0=0\cdot 1=0 and {\displaystyle 1\cdot 1=1}1\cdot 1=1.
+
+Exponentiation in finite fields has applications in public key cryptography. For example, the Diffie–Hellman key exchange uses the fact that exponentiation is computationally inexpensive in finite fields, whereas the discrete logarithm (the inverse of exponentiation) is computationally expensive.
+
+Any finite field F has the property that there is a unique prime number p such that {\displaystyle px=0}px=0 for all x in F; that is, x added to itself p times is zero. For example, in {\displaystyle F_{2}}F_{2}, the prime number p = 2 has this property. This prime number is called the characteristic of the field. Suppose that F is a field of characteristic p, and consider the function {\displaystyle f(x)=x^{p}}f(x)=x^{p} that raises each element of F to the power p. This is called the Frobenius automorphism of F. It is an automorphism of the field because of the Freshman's dream identity {\displaystyle (x+y)^{p}=x^{p}+y^{p}}(x+y)^{p}=x^{p}+y^{p}. The Frobenius automorphism is important in number theory because it generates the Galois group of F over its prime subfield.
+
+In abstract algebra
+Exponentiation for integer exponents can be defined for quite general structures in abstract algebra.
+
+Let X be a set with a power-associative binary operation which is written multiplicatively. Then xn is defined for any element x of X and any nonzero natural number n as the product of n copies of x, which is recursively defined by
+
+{\displaystyle {\begin{aligned}x^{1}&=x,\\x^{n}&=x^{n-1}x\quad {\text{for }}n>1.\end{aligned}}}{\displaystyle {\begin{aligned}x^{1}&=x,\\x^{n}&=x^{n-1}x\quad {\text{for }}n>1.\end{aligned}}}
+One has the following properties
+
+{\displaystyle {\begin{aligned}(x^{i}x^{j})x^{k}&=x^{i}(x^{j}x^{k}),&&{\text{(power-associative property)}}\\x^{m+n}&=x^{m}x^{n},\\(x^{m})^{n}&=x^{mn}.\end{aligned}}}{\displaystyle {\begin{aligned}(x^{i}x^{j})x^{k}&=x^{i}(x^{j}x^{k}),&&{\text{(power-associative property)}}\\x^{m+n}&=x^{m}x^{n},\\(x^{m})^{n}&=x^{mn}.\end{aligned}}}
+If the operation has a two-sided identity element 1, then x0 is defined to be equal to 1 for any x:[citation needed]
+
+{\displaystyle {\begin{aligned}x1&=1x=x,&&{\text{(two-sided identity)}}\\x^{0}&=1.\end{aligned}}}{\displaystyle {\begin{aligned}x1&=1x=x,&&{\text{(two-sided identity)}}\\x^{0}&=1.\end{aligned}}}
+If the operation also has two-sided inverses and is associative, then the magma is a group. The inverse of x can be denoted by x−1 and follows all the usual rules for exponents:
+
+{\displaystyle {\begin{aligned}xx^{-1}&=x^{-1}x=1,&&{\text{(two-sided inverse)}}\\(xy)z&=x(yz),&&{\text{(associative)}}\\x^{-n}&=(x^{-1})^{n},\\x^{m-n}&=x^{m}x^{-n}.\end{aligned}}}{\displaystyle {\begin{aligned}xx^{-1}&=x^{-1}x=1,&&{\text{(two-sided inverse)}}\\(xy)z&=x(yz),&&{\text{(associative)}}\\x^{-n}&=(x^{-1})^{n},\\x^{m-n}&=x^{m}x^{-n}.\end{aligned}}}
+If the multiplication operation is commutative (as, for instance, in abelian groups), then the following holds:
+
+{\displaystyle (xy)^{n}=x^{n}y^{n}.}{\displaystyle (xy)^{n}=x^{n}y^{n}.}
+If the binary operation is written additively, as it often is for abelian groups, then "exponentiation is repeated multiplication" can be reinterpreted as "multiplication is repeated addition". Thus, each of the laws of exponentiation above has an analogue among laws of multiplication.
+
+When there are several power-associative binary operations defined on a set, any of which might be iterated, it is common to indicate which operation is being repeated by placing its symbol in the superscript. Thus, x∗n is x ∗ ... ∗ x, while x#n is x # ... # x, whatever the operations ∗ and # might be.
+
+Superscript notation is also used, especially in group theory, to indicate conjugation. That is, gh = h−1gh, where g and h are elements of some group. Although conjugation obeys some of the same laws as exponentiation, it is not an example of repeated multiplication in any sense. A quandle is an algebraic structure in which these laws of conjugation play a central role.
+
+Over sets
+Main article: Cartesian product
+If n is a natural number, and A is an arbitrary set, then the expression An is often used to denote the set of ordered n-tuples of elements of A. This is equivalent to letting An denote the set of functions from the set {0, 1, 2, ..., n − 1} to the set A; the n-tuple (a0, a1, a2, ..., an−1) represents the function that sends i to ai.
+
+For an infinite cardinal number κ and a set A, the notation Aκ is also used to denote the set of all functions from a set of size κ to A. This is sometimes written κA to distinguish it from cardinal exponentiation, defined below.
+
+This generalized exponential can also be defined for operations on sets or for sets with extra structure. For example, in linear algebra, it makes sense to index direct sums of vector spaces over arbitrary index sets. That is, we can speak of
+
+{\displaystyle \bigoplus _{i\in \mathbb {N} }V_{i},}{\displaystyle \bigoplus _{i\in \mathbb {N} }V_{i},}
+where each Vi is a vector space.
+
+Then if Vi = V for each i, the resulting direct sum can be written in exponential notation as V⊕N, or simply VN with the understanding that the direct sum is the default. We can again replace the set N with a cardinal number n to get Vn, although without choosing a specific standard set with cardinality n, this is defined only up to isomorphism. Taking V to be the field R of real numbers (thought of as a vector space over itself) and n to be some natural number, we get the vector space that is most commonly studied in linear algebra, the real vector space Rn.
+
+If the base of the exponentiation operation is a set, the exponentiation operation is the Cartesian product unless otherwise stated. Since multiple Cartesian products produce an n-tuple, which can be represented by a function on a set of appropriate cardinality, SN becomes simply the set of all functions from N to S in this case:
+
+{\displaystyle S^{N}\equiv \{f\colon N\to S\}.}{\displaystyle S^{N}\equiv \{f\colon N\to S\}.}
+This fits in with the exponentiation of cardinal numbers, in the sense that |SN| = |S||N|, where |X| is the cardinality of X. When "2" is defined as {0, 1}, we have |2X| = 2|X|, where 2X, usually denoted by P(X), is the power set of X; each subset Y of X corresponds uniquely to a function on X taking the value 1 for x ∈ Y and 0 for x ∉ Y.
+
+In category theory
+Main article: Cartesian closed category
+In a Cartesian closed category, the exponential operation can be used to raise an arbitrary object to the power of another object. This generalizes the Cartesian product in the category of sets. If 0 is an initial object in a Cartesian closed category, then the exponential object 00 is isomorphic to any terminal object 1.
+
+Of cardinal and ordinal numbers
+Main articles: Cardinal arithmetic and Ordinal arithmetic
+In set theory, there are exponential operations for cardinal and ordinal numbers.
+
+If κ and λ are cardinal numbers, the expression κλ represents the cardinality of the set of functions from any set of cardinality λ to any set of cardinality κ.[32] If κ and λ are finite, then this agrees with the ordinary arithmetic exponential operation. For example, the set of 3-tuples of elements from a 2-element set has cardinality 8 = 23. In cardinal arithmetic, κ0 is always 1 (even if κ is an infinite cardinal or zero).
+
+Exponentiation of cardinal numbers is distinct from exponentiation of ordinal numbers, which is defined by a limit process involving transfinite induction.
+
+Repeated exponentiation
+Main articles: Tetration and Hyperoperation
+Just as exponentiation of natural numbers is motivated by repeated multiplication, it is possible to define an operation based on repeated exponentiation; this operation is sometimes called hyper-4 or tetration. Iterating tetration leads to another operation, and so on, a concept named hyperoperation. This sequence of operations is expressed by the Ackermann function and Knuth's up-arrow notation. Just as exponentiation grows faster than multiplication, which is faster-growing than addition, tetration is faster-growing than exponentiation. Evaluated at (3, 3), the functions addition, multiplication, exponentiation, and tetration yield 6, 9, 27, and 7625597484987 (= 327 = 333 = 33) respectively.
+
+Limits of powers
+Zero to the power of zero gives a number of examples of limits that are of the indeterminate form 00. The limits in these examples exist, but have different values, showing that the two-variable function xy has no limit at the point (0, 0). One may consider at what points this function does have a limit.
+
+More precisely, consider the function f(x, y) = xy defined on D = {(x, y) ∈ R2 : x > 0}. Then D can be viewed as a subset of R2 (that is, the set of all pairs (x, y) with x, y belonging to the extended real number line R = [−∞, +∞], endowed with the product topology), which will contain the points at which the function f has a limit.
+
+In fact, f has a limit at all accumulation points of D, except for (0, 0), (+∞, 0), (1, +∞) and (1, −∞).[33] Accordingly, this allows one to define the powers xy by continuity whenever 0 ≤ x ≤ +∞, −∞ ≤ y ≤ +∞, except for 00, (+∞)0, 1+∞ and 1−∞, which remain indeterminate forms.
+
+Under this definition by continuity, we obtain:
+
+x+∞ = +∞ and x−∞ = 0, when 1 < x ≤ +∞.
+x+∞ = 0 and x−∞ = +∞, when 0 ≤ x < 1.
+0y = 0 and (+∞)y = +∞, when 0 < y ≤ +∞.
+0y = +∞ and (+∞)y = 0, when −∞ ≤ y < 0.
+These powers are obtained by taking limits of xy for positive values of x. This method does not permit a definition of xy when x < 0, since pairs (x, y) with x < 0 are not accumulation points of D.
+
+On the other hand, when n is an integer, the power xn is already meaningful for all values of x, including negative ones. This may make the definition 0n = +∞ obtained above for negative n problematic when n is odd, since in this case xn → +∞ as x tends to 0 through positive values, but not negative ones.
+
+Efficient computation with integer exponents
+Computing bn using iterated multiplication requires n − 1 multiplication operations, but it can be computed more efficiently than that, as illustrated by the following example. To compute 2100, note that 100 = 64 + 32 + 4. Compute the following in order:
+
+22 = 4
+(22)2 = 24 = 16.
+(24)2 = 28 = 256.
+(28)2 = 216 = 65536.
+(216)2 = 232 = 4294967296.
+(232)2 = 264 = 18446744073709551616.
+264 232 24 = 2100 = 1267650600228229401496703205376.
+This series of steps only requires 8 multiplication operations (the last product above takes 2 multiplications) instead of 99.
+
+In general, the number of multiplication operations required to compute bn can be reduced to Θ(log n) by using exponentiation by squaring or (more generally) addition-chain exponentiation. Finding the minimal sequence of multiplications (the minimal-length addition chain for the exponent) for bn is a difficult problem, for which no efficient algorithms are currently known (see Subset sum problem), but many reasonably efficient heuristic algorithms are available.[34]
+
+Exponential notation for function names
+Placing an integer superscript after the name or symbol of a function, as if the function were being raised to a power, commonly refers to repeated function composition rather than repeated multiplication.[35][36][37] Thus, f3(x) may mean f(f(f(x)));[38] in particular, f−1(x) usually denotes the inverse function of f. This notation was introduced by Hans Heinrich Bürmann[citation needed][36][37] and John Frederick William Herschel.[35][36][37] Iterated functions are of interest in the study of fractals and dynamical systems. Babbage was the first to study the problem of finding a functional square root f1/2(x).
+
+To distinguish exponentiation from function composition, the common usage is to write the exponential exponent after the parenthesis enclosing the argument of the function; that is, f(x)3 means (f(x))3, and f(x)–1 means 1/f(x).
+
+For historical reasons, and because of the ambiguity resulting of not enclosing arguments with parentheses, a superscript after a function name applied specifically to the trigonometric and hyperbolic functions has a deviating meaning: a positive exponent applied to the function's abbreviation means that the result is raised to that power,[39][40][41][42][43][44][45][17][37] while an exponent of −1 still denotes the inverse function.[37] That is, sin2 x is just a shorthand way to write (sin x)2 = sin(x)2 without using parentheses,[13][46][47][48][49][50][51][17] whereas sin−1 x refers to the inverse function of the sine, also called arcsin x. Each trigonometric and hyperbolic function has its own name and abbreviation both for the reciprocal (for example, 1/(sin x) = (sin x)−1 = sin(x)−1 = csc x), and its inverse (for example cosh−1 x = arcosh x). A similar convention exists for logarithms,[37] where today log2 x usually means (log x)2, not log log x.[37]
+
+To avoid ambiguity, some mathematicians[citation needed] choose to use ∘ to denote the compositional meaning, writing f∘n(x) for the n-th iterate of the function f(x), as in, for example, f∘3(x) meaning f(f(f(x))). For the same purpose, f[n](x) was used by Benjamin Peirce[52][37] whereas Alfred Pringsheim and Jules Molk suggested nf(x) instead.[53][37][nb 1]

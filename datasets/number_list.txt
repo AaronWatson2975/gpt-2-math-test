@@ -1,0 +1,449 @@
+This is a list of articles about numbers. Due to the infinitude of many sets of numbers, this list will invariably be incomplete. Hence, only particularly notable numbers will be included. Numbers may be included in the list based on their mathematical, historical or cultural notability, but all numbers have qualities which could arguably make them notable. Even the least "interesting" number is paradoxically interesting for that very property. This is known as the interesting number paradox.
+
+The definition of what is classed as a number is rather diffuse and based on historical distinctions. For example the pair of numbers (3,4) is commonly regarded as a number when it is in the form of a complex number (3+4i), but not when it is in the form of a vector (3,4). This list will also be categorised with the standard convention of types of numbers.
+
+This list focuses on numbers as mathematical objects and is not a list of numerals, which are linguistic devices: nouns, adjectives, or adverbs that designate numbers. The distinction is drawn between the number five (an abstract object equal to 2+3), and the numeral five (the noun referring to the number).
+
+Natural numbers
+Main article: Natural number
+The natural numbers are a subset of the integers and are of historical and pedagogical value as they can be used for counting and often have ethno-cultural significance (see below). Beyond this, natural numbers are widely used as a building block for other number systems including the integers, rational numbers and real numbers. Natural numbers are those used for counting (as in "there are six (6) coins on the table") and ordering (as in "this is the third (3rd) largest city in the country"). In common language, words used for counting are "cardinal numbers" and words used for ordering are "ordinal numbers". Defined by the Peano axioms, the natural numbers form an infinitely large set.
+
+The inclusion of 0 in the set of natural numbers is ambiguous and subject to individual definitions. In set theory and computer science, 0 is typically considered a natural number. In number theory, it usually is not. The ambiguity can be solved with the terms "non-negative integers", which includes 0, and "positive integers", which does not.
+
+Natural numbers may be used as cardinal numbers, which may go by various names. Natural numbers may also be used as ordinal numbers.
+
+Table of small natural numbers. Click to 
+0	1	2	3	4	5	6	7	8	9
+10	11	12	13	14	15	16	17	18	19
+20	21	22	23	24	25	26	27	28	29
+30	31	32	33	34	35	36	37	38	39
+40	41	42	43	44	45	46	47	48	49
+50	51	52	53	54	55	56	57	58	59
+60	61	62	63	64	65	66	67	68	69
+70	71	72	73	74	75	76	77	78	79
+80	81	82	83	84	85	86	87	88	89
+90	91	92	93	94	95	96	97	98	99
+100	101	102	103	104	105	106	107	108	109
+110	111	112	113	114	115	116	117	118	119
+120	121	122	123	124	125	126	127	128	129
+130	131	132	133	134	135	136	137	138	139
+140	141	142	143	144	145	146	147	148	149
+150	151	152	153	154	155	156	157	158	159
+160	161	162	163	164	165	166	167	168	169
+170	171	172	173	174	175	176	177	178	179
+180	181	182	183	184	185	186	187	188	189
+190	191	192	193	194	195	196	197	198	199
+200	201	202	203	204	205	206	207	208	209
+210	211	212	213	214	215	216	217	218	219
+220	221	222	223	224	225	226	227	228	229
+230	231	232	233	234	235	236	237	238	239
+240	241	242	243	244	245	246	247	248	249
+250	251	252	253	254	255	256	257	258	259
+260	261	270	280	290	300	400	500	600	700
+800	900	1000	2000	3000	4000	5000	6000	7000	8000
+9000	10000	20000	30000	40000	50000	60000	70000	80000	90000
+105	106	107	108	109	Larger numbers, including 10100 and 1010100
+Mathematical significance
+Natural numbers may have properties specific to the individual number or may be part of a set (such as prime numbers) of numbers with a particular property.
+
+List of mathematically significant natural numbers[hide]
+1, the multiplicative identity. Also the only natural number (not including 0) that isn't prime or composite.
+2, the base of the binary number system, used in almost all modern computers and information systems.
+3, 22-1, the first Mersenne prime. It is the first odd prime, and it is also the 2 bit integer maximum value.
+4, the first composite number
+6, the first of the series of perfect numbers, whose proper factors sum to the number itself.
+9, the first odd number that is composite
+11, the fifth prime and first palindromic multi-digit number in base 10.
+12, the first sublime number.
+17, the sum of the first 4 prime numbers, and the only prime which is the sum of 4 consecutive primes.
+24, all Dirichlet characters mod n are real if and only if n is a divisor of 24.
+25, the first centered square number besides 1 that is also a square number
+27, the cube of 3, the value of {\displaystyle 3\uparrow \uparrow 2}{\displaystyle 3\uparrow \uparrow 2}, where {\displaystyle \uparrow }\uparrow  is Knuth's up-arrow notation.
+28, the second perfect number.
+30, the smallest sphenic number.
+32, the smallest nontrivial fifth power.
+36, the smallest number which is perfect power but not prime power.
+72, the smallest Achilles number.
+255, 28 − 1, the smallest perfect totient number that is neither a power of three nor thrice a prime; it is also the largest number that can be represented using an 8-bit unsigned integer
+341, the smallest base 2 Fermat pseudoprime.
+496, the third perfect number.
+1729, the Hardy–Ramanujan number, also known as the second taxicab number; that is, the smallest positive integer that can be written as the sum of two positive cubes in two different ways.[1]
+8128, the fourth perfect number.
+142857, the smallest base 10 cyclic number.
+9814072356, the largest perfect power that contains no repeated digits in base ten.
+Cultural or practical significance
+Along with their mathematical properties, many integers have cultural significance or are also notable for their use in computing and measurement. As mathematical properties (such as divisibility) can confer practical utility, there may be interplay and connections between the cultural or practical significance of an integer and its mathematical properties.
+
+List of integers notable for their cultural meanings.[hide]
+3, significant in Christianity as the Trinity. Also considered significant in Hinduism (Trimurti, Tridevi). Holds significance in a number of ancient mythologies.
+4, considered an "unlucky number" in modern China, Japan and Korea due to its audible similarity to the word "death."
+5, number of fingers or toes for almost all amphibians, reptiles and mammals
+7, considered a "lucky" number in Western cultures.
+8, considered a "lucky" number in Chinese culture due to its aural similarity to the term for prosperity.
+11, the number of players on an association football team.
+12, the number base for some ancient counting systems and the basis for some modern measuring systems. Known as a dozen.
+13, considered an "unlucky" number in Western superstition. Also known as a "Baker's Dozen".
+15, the number of players on a rugby union team. It is also the first point received in tennis.
+16, the base of the hexadecimal number system which is utilized within many programming languages.
+18, age of majority in most countries in the world.[citation needed]
+19, the length of one side of a Go board.
+21, the legal drinking age in the United States.
+22, the namesake of catch-22, a paradoxical condition in which there is no escape due to mutually conflicting or dependent conditions.
+23, number of chromosomes in a human haploid. Other human cells have 23 pairs of chromosomes.
+26, the number of English letters, bijective base 26 is used in the columns of Microsoft Excel.
+42, the "answer to the ultimate question of life, the universe, and everything" in the popular 1979 science fiction work The Hitchhiker's Guide to the Galaxy.
+69, used as slang to refer to a sexual act.
+86, a slang term that is used in the American popular culture as a transitive verb to mean throw out or get rid of.[2]
+108, considered sacred by the Dharmic Religions. Approximately equal to the ratio of the distance from Earth to Sun and diameter of the Sun.
+420, a code-term that refers to the consumption of cannabis.
+666, the Number of the Beast from the Book of Revelation.
+786, regarded as sacred in the Muslim Abjad numerology.
+5040, mentioned by Plato in the Laws as one of the most important numbers for the city.
+List of integers notable for their use in units, measurements and scales.[hide]
+10, the number of digits in the decimal number system.
+14, the number of days in a fortnight.
+16, the number of digits in the hexadecimal number system.
+24, number of hours in a day
+25, the number of cents in a quarter.
+31, the number of days most months of the year have.
+60, the number base for some ancient counting systems, such as the Babylonians', and the basis for many modern measuring systems.
+365, the number of days in the common year.
+List of integers notable in computing[hide]
+8, the number of bits in a byte
+256, The number of possible combinations within 8 bits, or a byte.
+1024, the number of bytes in a kibibyte. It's also the number of bits in a kibibit.
+65535, 216 − 1, the maximum value of a 16-bit unsigned integer.
+65536, 216, the number of possible 16-bit combinations.
+65537, 216 + 1, the most popular RSA public key prime exponent in most SSL/TLS certificates on the Web/Internet.
+16777216, 224, or 166; the hexadecimal "million" (0x1000000), and the total number of possible color combinations in 24/32-bit True Color computer graphics.
+2147483647, 231 − 1, the maximum value of a 32-bit signed integer using two's complement representation.
+9223372036854775807, 263 − 1, the maximum value of a 64-bit signed integer using two's complement representation.
+Classes of natural numbers
+Subsets of the natural numbers, such as the prime numbers, may be grouped into sets, for instance based on the divisibility of their members. Infinitely many such sets are possible. A list of notable classes of natural numbers may be found at classes of natural numbers.
+
+Prime numbers
+Main articles: Prime number and List of prime numbers
+A prime number is a positive integer which has exactly two divisors: 1 and itself.
+
+The first 100 prime numbers are:
+
+Table of first 100 prime numbers. Click to 
+  2	  3	  5	  7	 11	 13	 17	 19	 23	 29
+ 31	 37	 41	 43	 47	 53	 59	 61	 67	 71
+ 73	 79	 83	 89	 97	101	103	107	109	113
+127	131	137	139	149	151	157	163	167	173
+179	181	191	193	197	199	211	223	227	229
+233	239	241	251	257	263	269	271	277	281
+283	293	307	311	313	317	331	337	347	349
+353	359	367	373	379	383	389	397	401	409
+419	421	431	433	439	443	449	457	461	463
+467	479	487	491	499	503	509	521	523	541
+Highly composite numbers
+Main article: Highly composite number
+A highly composite number (HCN) is a positive integer with more divisors than any smaller positive integer. They are often used in geometry, grouping and time measurement.
+
+The first 20 highly composite numbers are:
+
+1, 2, 4, 6, 12, 24, 36, 48, 60, 120, 180, 240, 360, 720, 840, 1260, 1680, 2520, 5040, 7560.
+
+Perfect numbers
+Main article: Perfect number
+A perfect number is an integer that is the sum of its positive proper divisors (all divisors except itself).
+
+The first 10 perfect numbers:
+
+  6
+  28
+  496
+  8128
+  33 550 336
+  8 589 869 056
+  137 438 691 328
+  2 305 843 008 139 952 128
+  2 658 455 991 569 831 744 654 692 615 953 842 176
+  191 561 942 608 236 107 294 793 378 084 303 638 130 997 321 548 169 216
+Integers
+Main article: Integer
+The integers are a set of numbers commonly encountered in arithmetic and number theory. There are many subsets of the integers, including the natural numbers, prime numbers, perfect numbers, etc. Many integers are notable for their mathematical properties.
+
+Notable integers include −1, the additive inverse of unity, and 0, the additive identity.
+
+As with the natural numbers, the integers may also have cultural or practical significance. For instance, −40 is the equal point in the Fahrenheit and Celsius scales.
+
+SI prefixes
+One important use of integers is in orders of magnitude. A power of ten is a number 10k, where k is an integer. For instance, with k = 0, 1, 2, 3, ..., the appropriate powers of ten are 1, 10, 100, 1000, ... Powers of ten can also be fractional: for instance, k = -3 gives 1/1000, or 0.001. This is used in scientific notation, real numbers are written in the form m × 10n. The number 394,000 is written in this form as 3.94 × 105.
+
+Integers are used as prefixes in the SI system. A metric prefix is a unit prefix that precedes a basic unit of measure to indicate a multiple or fraction of the unit. Each prefix has a unique symbol that is prepended to the unit symbol. The prefix kilo-, for example, may be added to gram to indicate multiplication by one thousand: one kilogram is equal to one thousand grams. The prefix milli-, likewise, may be added to metre to indicate division by one thousand; one millimetre is equal to one thousandth of a metre.
+
+Value	1000m	Name
+1000	10001	Kilo
+1000000	10002	Mega
+1000000000	10003	Giga
+1000000000000	10004	Tera
+1000000000000000	10005	Peta
+1000000000000000000	10006	Exa
+1000000000000000000000	10007	Zetta
+1000000000000000000000000	10008	Yotta
+Rational numbers
+Main article: Rational number
+A rational number is any number that can be expressed as the quotient or fraction p/q of two integers, a numerator p and a non-zero denominator q.[3] Since q may be equal to 1, every integer is trivially a rational number. The set of all rational numbers, often referred to as "the rationals", the field of rationals or the field of rational numbers is usually denoted by a boldface Q (or blackboard bold {\displaystyle \mathbb {Q} }\mathbb {Q} , Unicode ℚ);[4] it was thus denoted in 1895 by Giuseppe Peano after quoziente, Italian for "quotient".
+
+Rational numbers such as 0.12 can be represented in infinitely many ways, e.g. zero-point-one-two (0.12), three twenty-fifths (
+3
+/
+25
+), nine seventy-fifths (
+9
+/
+75
+), etc. This can be mitigated by representing rational numbers in a canonical form as an irreducible fraction.
+
+A list of rational numbers is shown below. The names of fractions can be found at numeral (linguistics).
+
+Table of notable rational numbers. Click to 
+Decimal expansion	Fraction	Notability
+1	
+1
+/
+1
+One is the multiplicative identity. One is trivially a rational number, as it is equal to 1/1.
+-0.083 333...	-1/12	The value counter-intuitively ascribed to the series 1+2+3....
+0.5	
+1
+/
+2
+One half occurs commonly in mathematical equations and in real world proportions. One half appears in the formula for the area of a triangle: 
+1
+/
+2
+ × base × perpendicular height and in the formulae for figurate numbers, such as triangular numbers and pentagonal numbers.
+3.142 857...	22/7	A widely used approximation for the number {\displaystyle \pi }\pi . It can be proven that this number exceeds {\displaystyle \pi }\pi .
+0.166 666...	1/6	One sixth. Often appears in mathematical equations, such as in the sum of squares of the integers and in the solution to the Basel problem.
+Irrational numbers
+Main article: Irrational number
+The irrational numbers are a set of numbers that includes all real numbers that are not rational numbers. The irrational numbers are categorised as algebraic numbers (which are the root of a polynomial with rational coefficients) or transcendental numbers, which are not.
+
+Algebraic numbers
+Main article: Algebraic number
+Name	Expression	Decimal expansion	Notability
+Golden ratio conjugate ({\displaystyle \Phi }\Phi )	
+√5 − 1
+/
+2
+0.618033988749894848204586834366	Reciprocal of (and one less than) the golden ratio.
+Twelfth root of two	12√2	1.059463094359295264561825294946	Proportion between the frequencies of adjacent semitones in the 12 tone equal temperament scale.
+Cube root of two	3√2	1.259921049894873164767210607278	Length of the edge of a cube with volume two. See doubling the cube for the significance of this number.
+Conway's constant	(cannot be written as expressions involving integers and the operations of addition, subtraction, multiplication, division, and the extraction of roots)	1.303577269034296391257099112153	Defined as the unique positive real root of a certain polynomial of degree 71.
+Plastic number	{\displaystyle {\sqrt[{3}]{{\frac {1}{2}}+{\frac {1}{6}}{\sqrt {\frac {23}{3}}}}}+{\sqrt[{3}]{{\frac {1}{2}}-{\frac {1}{6}}{\sqrt {\frac {23}{3}}}}}}{\sqrt[ {3}]{{\frac  {1}{2}}+{\frac  {1}{6}}{\sqrt  {{\frac  {23}{3}}}}}}+{\sqrt[ {3}]{{\frac  {1}{2}}-{\frac  {1}{6}}{\sqrt  {{\frac  {23}{3}}}}}}	1.324717957244746025960908854478	The unique real root of the cubic equation x3 = x + 1.
+Square root of two	√2	1.414213562373095048801688724210	√2 = 2 sin 45° = 2 cos 45° Square root of two a.k.a. Pythagoras' constant. Ratio of diagonal to side length in a square. Proportion between the sides of paper sizes in the ISO 216 series (originally DIN 476 series).
+Supergolden ratio	{\displaystyle {\dfrac {1+{\sqrt[{3}]{\dfrac {29+3{\sqrt {93}}}{2}}}+{\sqrt[{3}]{\dfrac {29-3{\sqrt {93}}}{2}}}}{3}}}{\displaystyle {\dfrac {1+{\sqrt[{3}]{\dfrac {29+3{\sqrt {93}}}{2}}}+{\sqrt[{3}]{\dfrac {29-3{\sqrt {93}}}{2}}}}{3}}}	1.465571231876768026656731225220	The only real solution of {\displaystyle x^{3}=x^{2}+1}{\displaystyle x^{3}=x^{2}+1}. Also the limit to the ratio between subsequent numbers in the binary Look-and-say sequence and the Narayana's cows sequence (OEIS: A000930).
+Triangular root of 2.	
+√17 − 1
+/
+2
+1.561552812808830274910704927987	
+Golden ratio (φ)	
+√5 + 1
+/
+2
+1.618033988749894848204586834366	The larger of the two real roots of x2 = x + 1.
+Square root of three	√3	1.732050807568877293527446341506	√3 = 2 sin 60° = 2 cos 30° . A.k.a. the measure of the fish. Length of the space diagonal of a cube with edge length 1. Altitude of an equilateral triangle with side length 2. Altitude of a regular hexagon with side length 1 and diagonal length 2.
+Tribonacci constant.	{\displaystyle {\frac {1+{\sqrt[{3}]{19+3{\sqrt {33}}}}+{\sqrt[{3}]{19-3{\sqrt {33}}}}}{3}}}{\frac {1+{\sqrt[{3}]{19+3{\sqrt {33}}}}+{\sqrt[{3}]{19-3{\sqrt {33}}}}}{3}}	1.839286755214161132551852564653	Appears in the volume and coordinates of the snub cube and some related polyhedra. It satisfies the equation x + x−3 = 2.
+Square root of five.	√5	2.236067977499789696409173668731	Length of the diagonal of a 1 × 2 rectangle.
+Silver ratio (δS)	√2 + 1	2.414213562373095048801688724210	The larger of the two real roots of x2 = 2x + 1.
+Altitude of a regular octagon with side length 1.
+Square root of 6	√6	2.449489742783178098197284074706	√2 · √3 = area of a √2 × √3 rectangle. Length of the space diagonal of a 1 × 1 × 2 rectangular box.
+Square root of 7	√7	2.645751311064590590501615753639	
+Square root of 8	√8	2.828427124746190097603377448419	2√2
+Square root of 10	√10	3.162277660168379331998893544433	√2 · √5 . Length of the diagonal of a 1 × 3 rectangle.
+Bronze ratio (S3)	
+√13 + 3
+/
+2
+3.302775637731994646559610633735	The larger of the two real roots of x2 = 3x + 1.
+Square root of 11	√11	3.316624790355399849114932736671	Length of the space diagonal of a 1 × 1 × 3 rectangular box.
+Square root of 12	√12	3.464101615137754587054892683012	2√3 . Length of the space diagonal of a cube with edge length 2.
+Transcendental numbers
+Main article: Transcendental number
+Name	Symbol
+or
+
+Formula
+
+Decimal expansion	Notes and notability
+Gelfond's constant	eπ	23.14069263277925...	
+Ramanujan's constant	eπ√163	262537412640768743.99999999999925...	
+Gaussian integral	√π	1.772453850905516...	
+Komornik–Loreti constant	q	1.787231650...	
+Universal parabolic constant	P2	2.29558714939...	
+Gelfond–Schneider constant	2√2	2.665144143...	
+Euler's number	e	2.718281828459045235360287471352662497757247...	
+Pi	π	3.141592653589793238462643383279502884197169399375...	
+Riemann zeta function at s=2	
+π2
+/
+6
+1.644934066848226436472415...	Also represented as ζ(2)
+Riemann zeta function at s=4	
+π4
+/
+90
+1.082323...[5]	Also represented as ζ(4)
+Super square-root of 2	√2s	1.559610469...[6]	
+Liouville constant	c	0.110001000000000000000001000...	
+Champernowne constant	C10	0.12345678910111213141516...	
+Reciprocal of pi	
+1
+/
+π
+0.318309886183790671537767526745028724068919291480...[7]	
+Reciprocal of Euler's number	
+1
+/
+e
+0.367879441171442321595523770161460867445811131031...[7]	
+Prouhet–Thue–Morse constant	τ	0.412454033640...	
+Base ten logarithm of Euler's number	log10 e	0.434294481903251827651128918916605082294397005803...[7]	
+Omega constant	Ω	0.5671432904097838729999686622...	
+Cahen's constant	c	0.64341054629...	
+Natural logarithm of 2	ln 2	0.693147180559945309417232121458	
+Gauss's constant	G	0.8346268...	
+Tau	2π: τ	6.283185307179586476925286766559...	The ratio of the circumference to a radius, and the number of radians in a complete circle[8][9]
+Irrational but not known to be transcendental
+Some numbers are known to be irrational numbers, but have not been proven to be transcendental. This differs from the algebraic numbers, which are known not to be transcendental.
+
+Name	Decimal expansion	Proof of irrationality	Reference of unknown transcendentality
+ζ(3), also known as Apéry's constant	1.202056903159594285399738161511449990764986292	[10]	[11]
+Erdős–Borwein constant, E	1.606695152415291763...	[12][13]	[citation needed]
+Copeland–Erdős constant	0.235711131719232931374143...	Can be proven with Dirichlet's theorem on arithmetic progressions or Bertrand's postulate (Hardy and Wright, p. 113) or Ramare's theorem that every even integer is a sum of at most six primes. It also follows directly from its normality.	[citation needed]
+Prime constant, ρ	0.414682509851111660248109622...	Proof of the number's irrationality is given at prime constant.	[citation needed]
+Reciprocal Fibonacci constant, ψ	3.359885666243177553172011302918927179688905133731...	[14][15]	[16]
+Real numbers
+The real numbers are a superset containing the algebraic and the transcendental numbers. For some numbers, it is not known whether they are algebraic or transcendental. The following list includes real numbers that have not been proved to be irrational, nor transcendental.
+
+Real but not known to be irrational, nor transcendental
+Name and symbol	Decimal expansion	Notes
+1st Feigenbaum constant, δ	4.6692...	Both Feigenbaum constants are believed to be transcendental, although they have not been proven to be so.[17]
+2nd Feigenbaum constant, α	2.5029...	Both Feigenbaum constants are believed to be transcendental, although they have not been proven to be so.[17]
+Barban's constant	2.596536...[18]	
+Backhouse's constant	1.456074948...	
+Fransén–Robinson constant, F	2.8077702420...	
+Glaisher–Kinkelin constant, A	1.28242712...	
+Khinchin's constant, K0	2.685452001...[19]	It is not known whether this number is irrational.[20]
+Lévy's constant, γ	3.275822918721811159787681882...	
+Mills' constant, A	1.30637788386308069046...	It is not known whether this number is irrational.(Finch 2003)
+Murata's constant	2.826419...[21]	
+Ramanujan–Soldner constant, μ	1.451369234883381050283968485892027449493...	
+Sierpiński's constant, K	2.5849817595792532170658936...	
+Totient summatory constant	1.339784...[22]	
+Van der Pauw's constant, 
+π
+/
+ln 2
+4.53236014182719380962...[23]	
+Vardi's constant, E	1.264084735305...	
+Favard constant, K1	1.57079633...	
+Somos' quadratic recurrence constant, σ	1.661687949633594121296...	
+Niven's constant, c	1.705211...	
+Brun's constant, B2	1.902160583104...	The irrationality of this number would be a consequence of the truth of the infinitude of twin primes.
+Landau's totient constant	1.943596...[24]	
+Brun's constant for prime quadruplets, B4	0.8705883800...	
+Quadratic class number constant	0.881513...[25]	
+Catalan's constant, G	0.915965594177219015054603514932384110774...	It is not known whether this number is irrational.[26]
+Viswanath's constant, σ(1)	1.1319882487943...	
+Khinchin–Lévy constant	1.1865691104...[27]	This number represents the probability that three random numbers have no common factor greater than 1.[28]
+Sarnak's constant	0.723648...[29]	
+Landau–Ramanujan constant	0.76422365358922066299069873125...	
+C(1)	0.77989340037682282947420641365...	
+Z(1)	−0.736305462867317734677899828925614672...	
+Heath-Brown–Moroz constant, C	0.001317641...	
+Kepler–Bouwkamp constant	0.1149420448...	
+MRB constant	0.187859...	It is not known whether this number is irrational.
+Meissel–Mertens constant, M	0.2614972128476427837554268386086958590516...	
+Bernstein's constant, β	0.2801694990...	
+Strongly carefree constant	0.286747...[30]	
+Gauss–Kuzmin–Wirsing constant, λ1	0.3036630029...[31]	
+Hafner–Sarnak–McCurley constant	0.3532363719...	
+Artin's constant	0.3739558136...	
+Carefree constant	0.428249...[32]	
+S(1)	0.438259147390354766076756696625152...	
+F(1)	0.538079506912768419136387420407556...	
+Stephens' constant	0.575959...[33]	
+Euler–Mascheroni constant, γ	0.577215664901532860606512090082...	It is not known whether this number is irrational.
+Golomb–Dickman constant, λ	0.62432998854355087099293638310083724...	
+Twin prime constant, C2	0.660161815846869573927812110014...	
+Feller–Tornier constant	0.661317...[34]	
+Laplace limit, ε	0.6627434193...[35]	
+Taniguchi's constant	0.678234...[36]	
+Continued Fraction Constant, C	0.697774657964007982006790592551...[37]	
+Embree–Trefethen constant	0.70258...	
+Numbers not known with high precision
+Some real numbers, including transcendental numbers, are not known with high precision.
+
+The constant in the Berry–Esseen Theorem: 0.4097 < C < 0.4748
+De Bruijn–Newman constant: 0 ≤ Λ ≤ 0.22
+Chaitin's constants Ω, which are transcendental and provably impossible to compute.
+Bloch's constant (also 2nd Landau's constant): 0.4332 < B < 0.4719
+1st Landau's constant: 0.5 < L < 0.5433
+3rd Landau's constant: 0.5 < A ≤ 0.7853
+Grothendieck constant: 1.67 < k < 1.79
+Romanov's constant in Romanov's theorem: 0.107648 < d < 0.49094093, Romanov conjectured that it is 0.434
+Hypercomplex numbers
+Main article: Hypercomplex number
+Hypercomplex number is a term for an element of a unital algebra over the field of real numbers.
+
+Algebraic complex numbers
+Imaginary unit: i = √−1
+nth roots of unity: (ξn)k = cos (2π 
+k
+/
+n
+) + i sin (2π 
+k
+/
+n
+), while 0 ≤ k ≤ n−1, GCD(k, n) = 1
+Other hypercomplex numbers
+The quaternions
+The octonions
+The sedenions
+The dual numbers (with an infinitesimal)
+Transfinite numbers
+Main article: Transfinite number
+Transfinite numbers are numbers that are "infinite" in the sense that they are larger than all finite numbers, yet not necessarily absolutely infinite.
+
+Aleph-null: ℵ0: the smallest infinite cardinal, and the cardinality of ℕ, the set of natural numbers
+Aleph-one: ℵ1: the cardinality of ω1, the set of all countable ordinal numbers
+Beth-one: ℶ1 the cardinality of the continuum 2ℵ0
+ℭ or {\displaystyle {\mathfrak {c}}}{\mathfrak {c}}: the cardinality of the continuum 2ℵ0
+omega: ω, the smallest infinite ordinal
+Numbers representing physical quantities
+Main articles: Physical constant and List of physical constants
+Physical quantities that appear in the universe are often described using physical constants.
+
+Avogadro constant: NA = 6.02214076×1023 mol−1[38]
+Electron mass: me = 9.1093837015(28)×10−31 kg[39]
+Fine structure constant: α = 7.2973525693(11)×10−3[40]
+Gravitational constant: G = 6.67430(15)×10−11 m3⋅kg−1⋅s−2[41]
+Molar mass constant: Mu = 0.99999999965(30)×10−3 kg⋅mol−1[42]
+Planck constant: h = 6.62607015×10−34 J⋅s[43]
+Rydberg constant: R∞ = 10973731.568160(21) m−1[44]
+Speed of light in vacuum: c = 299792458 m/s[45]
+Vacuum electric permittivity: ε0 = 8.8541878128(13)×10−12 F⋅m−1[46]
+Numbers without specific values
+Main article: Indefinite and fictitious numbers
+Many languages have words expressing indefinite and fictitious numbers—inexact terms of indefinite size, used for comic effect, for exaggeration, as placeholder names, or when precision is unnecessary or undesirable. One technical term for such words is "non-numerical vague quantifier".[47] Such words designed to indicate large quantities can be called "indefinite hyperbolic numerals".[48]
+
+Named numbers
+Eddington number
+Euler's number, e ≈ 2.71828
+Googol, 10100
+Googolplex, 10(10100)
+Googolplexian, 10(10(10100))
+Graham's number
+Hardy–Ramanujan number, 1729
+Kaprekar's constant, 6174
+Moser's number
+Rayo's number
+Shannon number
+Skewes's number
