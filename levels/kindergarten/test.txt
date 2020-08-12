@@ -1,0 +1,40 @@
+Kindergarten math quiz
+
+Please answer all questions in the space provided.
+
+Questions
+
+a. 2 + 2
+b. 3 + 5
+c. 7 - 2
+d. 9 - 4
+e. 5 - 1
+f. 6 + 2
+g. 6 - 1
+h. 11 + 4
+i. 14 - 1
+j. 16 + 11
+k. 17 - 7
+l. 16 - 1
+m. 10 + 3
+n. 8 + 5
+o. 1 + 1
+p. 2 + 1
+q. 2 - 1
+r. 3 - 2
+s. 10 - 9
+t. 7 - 1
+
+Answers
+
+a. 4
+b. 8
+c. 5
+d. 5
+e. 4
+f. 8
+g. 5
+h. 15
+i. 13
+j. 27
+k. 10
