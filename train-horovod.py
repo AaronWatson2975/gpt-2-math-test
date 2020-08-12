@@ -31,7 +31,7 @@ def maketree(path):
 
 
 def train_main(dataset,
-               model_name='124M',
+               model_name='774M',
                seed=None,
                batch_size=2,
                sample_length=1023,
